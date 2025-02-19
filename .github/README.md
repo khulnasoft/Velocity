@@ -707,7 +707,7 @@ List of externally hosted middleware modules and maintained by the [Velocity tea
 | Middleware                                        | Description                                                                                                           |
 | :------------------------------------------------ | :-------------------------------------------------------------------------------------------------------------------- |
 | [contrib](https://github.com/khulnasoft/contrib)   | Third-party middlewares                                                                                               |
-| [storage](https://github.com/khulnasoft/storage)   | Premade storage drivers that implement the Storage interface, designed to be used with various Velocity middlewares.     |
+| [storage](https://go.khulnasoft.com/velocity/storage)   | Premade storage drivers that implement the Storage interface, designed to be used with various Velocity middlewares.     |
 | [template](https://github.com/khulnasoft/template) | This package contains 9 template engines that can be used with Velocity `v3`. Go version 1.23 or higher is required.      |
 
 ## 🕶️ Awesome List

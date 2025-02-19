@@ -4,7 +4,7 @@ id: session
 
 # Session
 
-The `session` middleware provides session management for Velocity applications, utilizing the [Storage](https://github.com/khulnasoft/storage) package for multi-database support via a unified interface. By default, session data is stored in memory, but custom storage options are easily configurable (see examples below).
+The `session` middleware provides session management for Velocity applications, utilizing the [Storage](https://go.khulnasoft.com/velocity/storage) package for multi-database support via a unified interface. By default, session data is stored in memory, but custom storage options are easily configurable (see examples below).
 
 As of v3, we recommend using the middleware handler for session management. However, for backward compatibility, v2's session methods are still available, allowing you to continue using the session management techniques from earlier versions of Velocity. Both methods are demonstrated in the examples.
 
@@ -308,7 +308,7 @@ package main
 
 import (
     "go.khulnasoft.com/velocity/v3"
-    "github.com/khulnasoft/storage/sqlite3"
+    "go.khulnasoft.com/velocity/storage/sqlite3"
     "go.khulnasoft.com/velocity/v3/middleware/csrf"
     "go.khulnasoft.com/velocity/v3/middleware/session"
 )

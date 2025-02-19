@@ -7,7 +7,7 @@ id: limiter
 Limiter middleware for [Velocity](https://go.khulnasoft.com/velocity) that is used to limit repeat requests to public APIs and/or endpoints such as password reset. It is also useful for API clients, web crawling, or other tasks that need to be throttled.
 
 :::note
-This middleware uses our [Storage](https://github.com/khulnasoft/storage) package to support various databases through a single interface. The default configuration for this middleware saves data to memory, see the examples below for other databases.
+This middleware uses our [Storage](https://go.khulnasoft.com/velocity/storage) package to support various databases through a single interface. The default configuration for this middleware saves data to memory, see the examples below for other databases.
 :::
 
 :::note
@@ -138,10 +138,10 @@ var ConfigDefault = Config{
 
 ### Custom Storage/Database
 
-You can use any storage from our [storage](https://github.com/khulnasoft/storage/) package.
+You can use any storage from our [storage](https://go.khulnasoft.com/velocity/storage/) package.
 
 ```go
-storage := sqlite3.New() // From github.com/khulnasoft/storage/sqlite3
+storage := sqlite3.New() // From go.khulnasoft.com/velocity/storage/sqlite3
 
 app.Use(limiter.New(limiter.Config{
     Storage: storage,

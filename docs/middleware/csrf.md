@@ -230,10 +230,10 @@ app.Use(csrf.New(csrf.Config{
 
 ## Custom Storage/Database
 
-You can use any storage from our [storage](https://github.com/khulnasoft/storage/) package.
+You can use any storage from our [storage](https://go.khulnasoft.com/velocity/storage/) package.
 
 ```go
-storage := sqlite3.New() // From github.com/khulnasoft/storage/sqlite3
+storage := sqlite3.New() // From go.khulnasoft.com/velocity/storage/sqlite3
 app.Use(csrf.New(csrf.Config{
     Storage: storage,
 }))
@@ -266,7 +266,7 @@ When using this pattern, it's important to set the `CookieSameSite` option to `L
 :::
 
 :::note
-When using this pattern, this middleware uses our [Storage](https://github.com/khulnasoft/storage) package to support various databases through a single interface. The default configuration for Storage saves data to memory. See [Custom Storage/Database](#custom-storagedatabase) for customizing the storage.
+When using this pattern, this middleware uses our [Storage](https://go.khulnasoft.com/velocity/storage) package to support various databases through a single interface. The default configuration for Storage saves data to memory. See [Custom Storage/Database](#custom-storagedatabase) for customizing the storage.
 :::
 
 ### Synchronizer Token Pattern (with Session)

@@ -1,0 +1,30 @@
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - 'clickhouse/**'
+  pull_request:
+    paths:
+      - 'clickhouse/**'
+name: 'Tests Clickhouse'
+jobs:
+  Tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        go-version:
+          - 1.21.x
+          - 1.22.x
+    steps:
+      - name: Fetch Repository
+        uses: actions/checkout@v4
+      - name: Install Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '${{ matrix.go-version }}'
+      - name: Run Test
+        env:
+          TEST_CLICKHOUSE_IMAGE: clickhouse/clickhouse-server:23-alpine
+        run: cd ./clickhouse && go clean -testcache && go test ./... -v -race
