@@ -1202,7 +1202,7 @@ app.Post("/", func(c velocity.Ctx) error {
 
 ## Next
 
-When **Next** is called, it executes the next method in the stack that matches the current route. You can pass an error struct within the method that will end the chaining and call the [error handler](https://docs.khulnasoft.io/guide/error-handling).
+When **Next** is called, it executes the next method in the stack that matches the current route. You can pass an error struct within the method that will end the chaining and call the [error handler](https://docs.khulnasoft.com/guide/error-handling).
 
 ```go title="Signature"
 func (c velocity.Ctx) Next() error
@@ -1551,7 +1551,7 @@ app.Get("/teapot", func(c velocity.Ctx) error {
 
 ## Render
 
-Renders a view with data and sends a `text/html` response. By default, `Render` uses the default [**Go Template engine**](https://pkg.go.dev/html/template/). If you want to use another view engine, please take a look at our [**Template middleware**](https://docs.khulnasoft.io/template).
+Renders a view with data and sends a `text/html` response. By default, `Render` uses the default [**Go Template engine**](https://pkg.go.dev/html/template/). If you want to use another view engine, please take a look at our [**Template middleware**](https://docs.khulnasoft.com/template).
 
 ```go title="Signature"
 func (c velocity.Ctx) Render(name string, bind any, layouts ...string) error

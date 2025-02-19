@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://khulnasoft.io">
+  <a href="https://khulnasoft.com">
     <picture>
       <source height="125" media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/khulnasoft/docs/master/static/img/logo-dark.svg">
       <img height="125" alt="Velocity" src="https://raw.githubusercontent.com/khulnasoft/docs/master/static/img/logo.svg">
@@ -18,15 +18,15 @@
   <a href="https://go.khulnasoft.com/velocity/actions?query=workflow%3ATest">
     <img src="https://img.shields.io/github/actions/workflow/status/khulnasoft/velocity/test.yml?branch=master&label=%F0%9F%A7%AA%20tests&style=flat-square&color=75C46B">
   </a>
-    <a href="https://docs.khulnasoft.io">
+    <a href="https://docs.khulnasoft.com">
     <img src="https://img.shields.io/badge/%F0%9F%92%A1%20velocity-docs-00ACD7.svg?style=flat-square">
   </a>
-  <a href="https://khulnasoft.io/discord">
+  <a href="https://khulnasoft.com/discord">
     <img src="https://img.shields.io/discord/704680098577514527?style=flat-square&label=%F0%9F%92%AC%20discord&color=00ACD7">
   </a>
 </h1>
 <p align="center">
-  <em><b>Velocity</b> is an <a href="https://github.com/expressjs/express">Express</a> inspired <b>web framework</b> built on top of <a href="https://github.com/valyala/fasthttp">Fasthttp</a>, the <b>fastest</b> HTTP engine for <a href="https://go.dev/doc/">Go</a>. Designed to <b>ease</b> things up for <b>fast</b> development with <a href="https://docs.khulnasoft.io/#zero-allocation"><b>zero memory allocation</b></a> and <b>performance</b> in mind.</em>
+  <em><b>Velocity</b> is an <a href="https://github.com/expressjs/express">Express</a> inspired <b>web framework</b> built on top of <a href="https://github.com/valyala/fasthttp">Fasthttp</a>, the <b>fastest</b> HTTP engine for <a href="https://go.dev/doc/">Go</a>. Designed to <b>ease</b> things up for <b>fast</b> development with <a href="https://docs.khulnasoft.com/#zero-allocation"><b>zero memory allocation</b></a> and <b>performance</b> in mind.</em>
 </p>
 
 ---
@@ -87,11 +87,11 @@ This simple server is easy to set up and run. It introduces the core concepts of
 
 ## Zero Allocation
 
-Velocity is optimized for **high-performance**, meaning values returned from **velocity.Ctx** are **not** immutable by default and **will** be re-used across requests. As a rule of thumb, you **must** only use context values within the handler and **must not** keep any references. Once you return from the handler, any values obtained from the context will be re-used in future requests. Visit our [documentation](https://docs.khulnasoft.io/#zero-allocation) to learn more.
+Velocity is optimized for **high-performance**, meaning values returned from **velocity.Ctx** are **not** immutable by default and **will** be re-used across requests. As a rule of thumb, you **must** only use context values within the handler and **must not** keep any references. Once you return from the handler, any values obtained from the context will be re-used in future requests. Visit our [documentation](https://docs.khulnasoft.com/#zero-allocation) to learn more.
 
 ## 🤖 Benchmarks
 
-These tests are performed by [TechEmpower](https://www.techempower.com/benchmarks/#section=data-r19&hw=ph&test=plaintext) and [Go Web](https://github.com/smallnest/go-web-framework-benchmark). If you want to see all the results, please visit our [Wiki](https://docs.khulnasoft.io/extra/benchmarks).
+These tests are performed by [TechEmpower](https://www.techempower.com/benchmarks/#section=data-r19&hw=ph&test=plaintext) and [Go Web](https://github.com/smallnest/go-web-framework-benchmark). If you want to see all the results, please visit our [Wiki](https://docs.khulnasoft.com/extra/benchmarks).
 
 <p float="left" align="middle">
   <img src="https://raw.githubusercontent.com/khulnasoft/docs/master/static/img/benchmark-pipeline.png" width="49%">
@@ -100,19 +100,19 @@ These tests are performed by [TechEmpower](https://www.techempower.com/benchmark
 
 ## 🎯 Features
 
-- Robust [Routing](https://docs.khulnasoft.io/guide/routing)
-- Serve [Static Files](https://docs.khulnasoft.io/api/app#static)
-- Extreme [Performance](https://docs.khulnasoft.io/extra/benchmarks)
-- [Low Memory](https://docs.khulnasoft.io/extra/benchmarks) footprint
-- [API Endpoints](https://docs.khulnasoft.io/api/ctx)
-- [Middleware](https://docs.khulnasoft.io/category/-middleware) & [Next](https://docs.khulnasoft.io/api/ctx#next) support
+- Robust [Routing](https://docs.khulnasoft.com/guide/routing)
+- Serve [Static Files](https://docs.khulnasoft.com/api/app#static)
+- Extreme [Performance](https://docs.khulnasoft.com/extra/benchmarks)
+- [Low Memory](https://docs.khulnasoft.com/extra/benchmarks) footprint
+- [API Endpoints](https://docs.khulnasoft.com/api/ctx)
+- [Middleware](https://docs.khulnasoft.com/category/-middleware) & [Next](https://docs.khulnasoft.com/api/ctx#next) support
 - [Rapid](https://dev.to/koddr/welcome-to-velocity-an-express-js-styled-fastest-web-framework-written-with-on-golang-497) server-side programming
 - [Template Engines](https://github.com/khulnasoft/template)
 - [WebSocket Support](https://github.com/khulnasoft/contrib/tree/main/websocket)
 - [Socket.io Support](https://github.com/khulnasoft/contrib/tree/main/socketio)
 - [Server-Sent Events](https://github.com/khulnasoft/recipes/tree/master/sse)
-- [Rate Limiter](https://docs.khulnasoft.io/api/middleware/limiter)
-- And much more, [explore Velocity](https://docs.khulnasoft.io/)
+- [Rate Limiter](https://docs.khulnasoft.com/api/middleware/limiter)
+- And much more, [explore Velocity](https://docs.khulnasoft.com/)
 
 ## 💡 Philosophy
 
@@ -120,7 +120,7 @@ New gophers that make the switch from [Node.js](https://nodejs.org/en/about/) to
 
 Velocity is **inspired** by Express, the most popular web framework on the Internet. We combined the **ease** of Express and **raw performance** of Go. If you have ever implemented a web application in Node.js (_using Express or similar_), then many methods and principles will seem **very common** to you.
 
-We **listen** to our users in [issues](https://go.khulnasoft.com/velocity/issues), Discord [channel](https://khulnasoft.io/discord) _and all over the Internet_ to create a **fast**, **flexible** and **friendly** Go web framework for **any** task, **deadline** and developer **skill**! Just like Express does in the JavaScript world.
+We **listen** to our users in [issues](https://go.khulnasoft.com/velocity/issues), Discord [channel](https://khulnasoft.com/discord) _and all over the Internet_ to create a **fast**, **flexible** and **friendly** Go web framework for **any** task, **deadline** and developer **skill**! Just like Express does in the JavaScript world.
 
 ## ⚠️ Limitations
 
@@ -129,9 +129,9 @@ We **listen** to our users in [issues](https://go.khulnasoft.com/velocity/issues
 
 ## 👀 Examples
 
-Listed below are some of the common examples. If you want to see more code examples, please visit our [Recipes repository](https://github.com/khulnasoft/recipes) or visit our hosted [API documentation](https://docs.khulnasoft.io).
+Listed below are some of the common examples. If you want to see more code examples, please visit our [Recipes repository](https://github.com/khulnasoft/recipes) or visit our hosted [API documentation](https://docs.khulnasoft.com).
 
-### 📖 [**Basic Routing**](https://docs.khulnasoft.io/#basic-routing)
+### 📖 [**Basic Routing**](https://docs.khulnasoft.com/#basic-routing)
 
 ```go title="Example"
 package main
@@ -180,7 +180,7 @@ func main() {
 }
 ```
 
-#### 📖 [**Route Naming**](https://docs.khulnasoft.io/api/app#name)
+#### 📖 [**Route Naming**](https://docs.khulnasoft.com/api/app#name)
 
 ```go title="Example"
 package main
@@ -219,7 +219,7 @@ func main() {
 }
 ```
 
-#### 📖 [**Serving Static Files**](https://docs.khulnasoft.io/api/app#static)
+#### 📖 [**Serving Static Files**](https://docs.khulnasoft.com/api/app#static)
 
 ```go title="Example"
 package main
@@ -251,7 +251,7 @@ func main() {
 }
 ```
 
-#### 📖 [**Middleware & Next**](https://docs.khulnasoft.io/api/ctx#next)
+#### 📖 [**Middleware & Next**](https://docs.khulnasoft.com/api/ctx#next)
 
 ```go title="Example"
 package main
@@ -293,9 +293,9 @@ func main() {
 
 ### Views Engines
 
-📖 [Config](https://docs.khulnasoft.io/api/velocity#config)
+📖 [Config](https://docs.khulnasoft.com/api/velocity#config)
 📖 [Engines](https://github.com/khulnasoft/template)
-📖 [Render](https://docs.khulnasoft.io/api/ctx#render)
+📖 [Render](https://docs.khulnasoft.com/api/ctx#render)
 
 Velocity defaults to the [html/template](https://pkg.go.dev/html/template/) when no view engine is set.
 
@@ -331,7 +331,7 @@ func main() {
 
 ### Grouping Routes into Chains
 
-📖 [Group](https://docs.khulnasoft.io/api/app#group)
+📖 [Group](https://docs.khulnasoft.com/api/app#group)
 
 ```go title="Example"
 package main
@@ -373,7 +373,7 @@ func main() {
 
 ### Middleware Logger
 
-📖 [Logger](https://docs.khulnasoft.io/api/middleware/logger)
+📖 [Logger](https://docs.khulnasoft.com/api/middleware/logger)
 
 ```go title="Example"
 package main
@@ -402,7 +402,7 @@ func main() {
 
 ### Cross-Origin Resource Sharing (CORS)
 
-📖 [CORS](https://docs.khulnasoft.io/api/middleware/cors)
+📖 [CORS](https://docs.khulnasoft.com/api/middleware/cors)
 
 ```go title="Example"
 package main
@@ -437,7 +437,7 @@ curl -H "Origin: http://example.com" --verbose http://localhost:3000
 
 ### Custom 404 Response
 
-📖 [HTTP Methods](https://docs.khulnasoft.io/api/ctx#status)
+📖 [HTTP Methods](https://docs.khulnasoft.com/api/ctx#status)
 
 ```go title="Example"
 package main
@@ -473,7 +473,7 @@ func main() {
 
 ### JSON Response
 
-📖 [JSON](https://docs.khulnasoft.io/api/ctx#json)
+📖 [JSON](https://docs.khulnasoft.com/api/ctx#json)
 
 ```go title="Example"
 package main
@@ -603,7 +603,7 @@ func main() {
 
 ### Recover Middleware
 
-📖 [Recover](https://docs.khulnasoft.io/api/middleware/recover)
+📖 [Recover](https://docs.khulnasoft.com/api/middleware/recover)
 
 ```go title="Example"
 package main
@@ -632,7 +632,7 @@ func main() {
 
 ### Using Trusted Proxy
 
-📖 [Config](https://docs.khulnasoft.io/api/velocity#config)
+📖 [Config](https://docs.khulnasoft.com/api/velocity#config)
 
 ```go title="Example"
 package main

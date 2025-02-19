@@ -132,7 +132,7 @@ var ConfigDefault = Config{
 
 ### Recommended Config (with session)
 
-It's recommended to use this middleware with [velocity/middleware/session](https://docs.khulnasoft.io/api/middleware/session) to store the CSRF token within the session. This is generally more secure than the default configuration.
+It's recommended to use this middleware with [velocity/middleware/session](https://docs.khulnasoft.com/api/middleware/session) to store the CSRF token within the session. This is generally more secure than the default configuration.
 
 ```go
 var ConfigDefault = Config{

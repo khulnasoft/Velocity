@@ -80,7 +80,7 @@ func main() {
 Status code: 200
 Repository: khulnasoft/velocity
 Description: ⚡️ Express inspired web framework written in Go
-Homepage: https://khulnasoft.io
+Homepage: https://khulnasoft.com
 Owner: khulnasoft
 Name: velocity
 Full Name: khulnasoft/velocity

@@ -58,7 +58,7 @@ proxy.WithClient(&fasthttp.Client{
 app.Get("/gif", proxy.Forward("https://i.imgur.com/IWaBepg.gif"))
 
 // If you want to forward with a specific domain. You have to use proxy.DomainForward.
-app.Get("/payments", proxy.DomainForward("docs.khulnasoft.io", "http://localhost:8000"))
+app.Get("/payments", proxy.DomainForward("docs.khulnasoft.com", "http://localhost:8000"))
 
 // Forward to url with local custom client
 app.Get("/gif", proxy.Forward("https://i.imgur.com/IWaBepg.gif", &fasthttp.Client{

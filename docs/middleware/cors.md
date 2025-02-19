@@ -49,7 +49,7 @@ app.Use(cors.New())
 
 // Or extend your config for customization
 app.Use(cors.New(cors.Config{
-    AllowOrigins: []string{"https://khulnasoft.io", "https://khulnasoft.net"},
+    AllowOrigins: []string{"https://khulnasoft.com", "https://khulnasoft.net"},
     AllowHeaders: []string{"Origin", "Content-Type", "Accept"},
 }))
 ```

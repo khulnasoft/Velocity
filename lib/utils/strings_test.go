@@ -1,6 +1,6 @@
 // ⚡️ Velocity is an Express inspired web framework written in Go with ☕️
 // 🤖 Github Repository: https://go.khulnasoft.com/velocity
-// 📌 API Documentation: https://docs.khulnasoft.io
+// 📌 API Documentation: https://docs.khulnasoft.com
 
 package utils
 
@@ -96,10 +96,10 @@ func Test_IfToUpper(t *testing.T) {
 
 func Test_IfToLower(t *testing.T) {
 	t.Parallel()
-	require.Equal(t, "mynameisparam", IfToLower("mynameisparam"))                 // already lowercase
-	require.Equal(t, "mynameisparam", IfToLower("myNameIsParam"))                 // mixed case
-	require.Equal(t, "https://khulnasoft.io", IfToLower("https://khulnasoft.io")) // Origin Header Type URL
-	require.Equal(t, "mynameisparam", IfToLower("MYNAMEISPARAM"))                 // uppercase to lowercase
+	require.Equal(t, "mynameisparam", IfToLower("mynameisparam"))                   // already lowercase
+	require.Equal(t, "mynameisparam", IfToLower("myNameIsParam"))                   // mixed case
+	require.Equal(t, "https://khulnasoft.com", IfToLower("https://khulnasoft.com")) // Origin Header Type URL
+	require.Equal(t, "mynameisparam", IfToLower("MYNAMEISPARAM"))                   // uppercase to lowercase
 }
 
 // Benchmark_IfToLower_HeadersOrigin benchmarks the IfToLower function with an origin header type URL.
@@ -108,20 +108,20 @@ func Benchmark_IfToToLower_HeadersOrigin(b *testing.B) {
 	var res string
 	b.Run("velocity", func(b *testing.B) {
 		for n := 0; n < b.N; n++ {
-			res = ToLower("https://khulnasoft.io")
+			res = ToLower("https://khulnasoft.com")
 		}
-		require.Equal(b, "https://khulnasoft.io", res)
+		require.Equal(b, "https://khulnasoft.com", res)
 	})
 	b.Run("IfToLower-Lower", func(b *testing.B) {
 		for n := 0; n < b.N; n++ {
-			res = IfToLower("https://khulnasoft.io")
+			res = IfToLower("https://khulnasoft.com")
 		}
-		require.Equal(b, "https://khulnasoft.io", res)
+		require.Equal(b, "https://khulnasoft.com", res)
 	})
 	b.Run("default", func(b *testing.B) {
 		for n := 0; n < b.N; n++ {
-			res = strings.ToLower("https://khulnasoft.io")
+			res = strings.ToLower("https://khulnasoft.com")
 		}
-		require.Equal(b, "https://khulnasoft.io", res)
+		require.Equal(b, "https://khulnasoft.com", res)
 	})
 }

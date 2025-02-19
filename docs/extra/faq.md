@@ -78,24 +78,24 @@ We have a dedicated page explaining how error handling works in Velocity, see [E
 
 ## Which template engines does Velocity support?
 
-Velocity currently supports 9 template engines in our [khulnasoft/template](https://docs.khulnasoft.io/template/) middleware:
+Velocity currently supports 9 template engines in our [khulnasoft/template](https://docs.khulnasoft.com/template/) middleware:
 
-* [ace](https://docs.khulnasoft.io/template/ace/)
-* [amber](https://docs.khulnasoft.io/template/amber/)
-* [django](https://docs.khulnasoft.io/template/django/)
-* [handlebars](https://docs.khulnasoft.io/template/handlebars/)
-* [html](https://docs.khulnasoft.io/template/html/)
-* [jet](https://docs.khulnasoft.io/template/jet/)
-* [mustache](https://docs.khulnasoft.io/template/mustache/)
-* [pug](https://docs.khulnasoft.io/template/pug/)
-* [slim](https://docs.khulnasoft.io/template/slim/)
+* [ace](https://docs.khulnasoft.com/template/ace/)
+* [amber](https://docs.khulnasoft.com/template/amber/)
+* [django](https://docs.khulnasoft.com/template/django/)
+* [handlebars](https://docs.khulnasoft.com/template/handlebars/)
+* [html](https://docs.khulnasoft.com/template/html/)
+* [jet](https://docs.khulnasoft.com/template/jet/)
+* [mustache](https://docs.khulnasoft.com/template/mustache/)
+* [pug](https://docs.khulnasoft.com/template/pug/)
+* [slim](https://docs.khulnasoft.com/template/slim/)
 
 To learn more about using Templates in Velocity, see [Templates](../guide/templates.md).
 
 ## Does Velocity have a community chat?
 
-Yes, we have our own [Discord](https://khulnasoft.io/discord)server, where we hang out. We have different rooms for every subject.  
-If you have questions or just want to have a chat, feel free to join us via this **&gt;** [**invite link**](https://khulnasoft.io/discord) **&lt;**.
+Yes, we have our own [Discord](https://khulnasoft.com/discord)server, where we hang out. We have different rooms for every subject.  
+If you have questions or just want to have a chat, feel free to join us via this **&gt;** [**invite link**](https://khulnasoft.com/discord) **&lt;**.
 
 ![](/img/support-discord.png)
 
