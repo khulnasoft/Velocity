@@ -32,7 +32,7 @@ Before you submit your pull request, please make sure you meet these requirement
 
 - [ ] Followed the inspiration of the Express.js framework for new functionalities, making them similar in usage.
 - [ ] Conducted a self-review of the code and provided comments for complex or critical parts.
-- [ ] Updated the documentation in the `/docs/` directory for [Velocity's documentation](https://docs.khulnasoft.io/).
+- [ ] Updated the documentation in the `/docs/` directory for [Velocity's documentation](https://docs.khulnasoft.com/).
 - [ ] Added or updated unit tests to validate the effectiveness of the changes or new features.
 - [ ] Ensured that new and existing unit tests pass locally with the changes.
 - [ ] Verified that any new dependencies are essential and have been agreed upon by the maintainers/community.

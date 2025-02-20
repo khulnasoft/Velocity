@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         ### Notice
-        - Don't forget you can ask your questions in our [Discord server](https://khulnasoft.io/discord).
+        - Don't forget you can ask your questions in our [Discord server](https://khulnasoft.com/discord).
         - If you think this is just a bug, open the issue with the **☢️ Bug Report** template.
         - If you have a suggestion for a Velocity feature you would like to see, open the issue with the **✏️ Feature Request** template.
         - Write your issue with clear and understandable English.

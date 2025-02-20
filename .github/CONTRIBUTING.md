@@ -1,6 +1,6 @@
 # Contributing
 
-Before making any changes to this repository, we kindly request you to initiate discussions for proposed changes that do not yet have an associated [issue](https://go.khulnasoft.com/velocity/issues). Please use our [Discord](https://khulnasoft.io/discord) server to initiate these discussions. For [issue](https://go.khulnasoft.com/velocity/issues) that already exist, you may proceed with discussions using our [issue](https://go.khulnasoft.com/velocity/issues) tracker or any other suitable method, in consultation with the repository owners. Your collaboration is greatly appreciated.
+Before making any changes to this repository, we kindly request you to initiate discussions for proposed changes that do not yet have an associated [issue](https://go.khulnasoft.com/velocity/issues). Please use our [Discord](https://khulnasoft.com/discord) server to initiate these discussions. For [issue](https://go.khulnasoft.com/velocity/issues) that already exist, you may proceed with discussions using our [issue](https://go.khulnasoft.com/velocity/issues) tracker or any other suitable method, in consultation with the repository owners. Your collaboration is greatly appreciated.
 
 Please note: we have a [code of conduct](https://go.khulnasoft.com/velocity/blob/master/.github/CODE_OF_CONDUCT.md), please follow it in all your interactions with the `Velocity` project.
 

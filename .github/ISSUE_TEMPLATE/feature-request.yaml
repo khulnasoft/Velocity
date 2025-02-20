@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         ### Notice
-        - For questions, join our [Discord server](https://khulnasoft.io/discord).
+        - For questions, join our [Discord server](https://khulnasoft.com/discord).
         - Please write in clear, understandable English.
         - Ensure your proposal aligns with Express design principles and HTTP RFC standards.
         - Describe features expected to remain stable and not require changes in the foreseeable future.

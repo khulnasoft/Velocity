@@ -1,6 +1,6 @@
 // ⚡️ Velocity is an Express inspired web framework written in Go with ☕️
 // 🤖 Github Repository: https://go.khulnasoft.com/velocity
-// 📌 API Documentation: https://docs.khulnasoft.io
+// 📌 API Documentation: https://docs.khulnasoft.com
 
 //nolint:goconst // Much easier to just ignore memory leaks in tests
 package velocity

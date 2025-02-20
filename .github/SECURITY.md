@@ -21,8 +21,8 @@ The table below shows the supported versions for Velocity which include security
 ## Reporting security problems to Velocity
 
 **DO NOT CREATE AN ISSUE** to report a security problem. Instead, please
-send us an e-mail at `team@khulnasoft.io` or join our discord server via
-[this invite link](https://khulnasoft.io/discord) and send a private message
+send us an e-mail at `team@khulnasoft.com` or join our discord server via
+[this invite link](https://khulnasoft.com/discord) and send a private message
 to Fenny or any of the maintainers.
 
 <a name="contact"></a>

@@ -869,7 +869,7 @@
     },
     {
       "method": "GET",
-      "path": "/legacy/user/email/info@khulnasoft.io"
+      "path": "/legacy/user/email/info@khulnasoft.com"
     },
     {
       "method": "GET",

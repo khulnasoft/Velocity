@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         ### Notice
-        - Dont't forget you can ask your questions on our [Discord server](https://khulnasoft.io/discord).
+        - Dont't forget you can ask your questions on our [Discord server](https://khulnasoft.com/discord).
         - If you think Velocity utils don't have a nice feature that you think, open the issue with **✏️ Feature Request** template.
         - Write your issue with clear and understandable English.
   - type: textarea

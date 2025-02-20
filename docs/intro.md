@@ -111,9 +111,9 @@ app.Method(path string, ...func(velocity.Ctx) error)
 ```
 
 - `app` is an instance of **Velocity**
-- `Method` is an [HTTP request method](https://docs.khulnasoft.io/api/app#route-handlers): `GET`, `PUT`, `POST`, etc.
+- `Method` is an [HTTP request method](https://docs.khulnasoft.com/api/app#route-handlers): `GET`, `PUT`, `POST`, etc.
 - `path` is a virtual path on the server
-- `func(velocity.Ctx) error` is a callback function containing the [Context](https://docs.khulnasoft.io/api/ctx) executed when the route is matched
+- `func(velocity.Ctx) error` is a callback function containing the [Context](https://docs.khulnasoft.com/api/ctx) executed when the route is matched
 
 #### Simple Route
 

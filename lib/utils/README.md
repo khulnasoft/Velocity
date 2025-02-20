@@ -4,7 +4,7 @@
 ![Test](https://github.com/khulnasoft/utils/workflows/Test/badge.svg)
 ![Codecov](https://img.shields.io/codecov/c/github/khulnasoft/utils?token=3Cr92CwaPQ&style=flat-square&logo=codecov&label=codecov)
 ![Linter](https://github.com/khulnasoft/utils/workflows/Linter/badge.svg)
-[![Discord](https://img.shields.io/badge/discord-join%20channel-7289DA)](https://khulnasoft.io/discord)
+[![Discord](https://img.shields.io/badge/discord-join%20channel-7289DA)](https://khulnasoft.com/discord)
 
 A collection of common functions but with better performance, less allocations and less dependencies created for [Velocity](https://go.khulnasoft.com/velocity).
 

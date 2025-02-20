@@ -30,17 +30,17 @@ app := velocity.New(velocity.Config{
 
 ### Supported Engines
 
-The Velocity team maintains a [templates](https://docs.khulnasoft.io/template) package that provides wrappers for multiple template engines:
+The Velocity team maintains a [templates](https://docs.khulnasoft.com/template) package that provides wrappers for multiple template engines:
 
-* [ace](https://docs.khulnasoft.io/template/ace/)
-* [amber](https://docs.khulnasoft.io/template/amber/)
-* [django](https://docs.khulnasoft.io/template/django/)
-* [handlebars](https://docs.khulnasoft.io/template/handlebars)
-* [html](https://docs.khulnasoft.io/template/html)
-* [jet](https://docs.khulnasoft.io/template/jet)
-* [mustache](https://docs.khulnasoft.io/template/mustache)
-* [pug](https://docs.khulnasoft.io/template/pug)
-* [slim](https://docs.khulnasoft.io/template/slim)
+* [ace](https://docs.khulnasoft.com/template/ace/)
+* [amber](https://docs.khulnasoft.com/template/amber/)
+* [django](https://docs.khulnasoft.com/template/django/)
+* [handlebars](https://docs.khulnasoft.com/template/handlebars)
+* [html](https://docs.khulnasoft.com/template/html)
+* [jet](https://docs.khulnasoft.com/template/jet)
+* [mustache](https://docs.khulnasoft.com/template/mustache)
+* [pug](https://docs.khulnasoft.com/template/pug)
+* [slim](https://docs.khulnasoft.com/template/slim)
 
 :::info
 Custom template engines can implement the `Views` interface to be supported in Velocity.
