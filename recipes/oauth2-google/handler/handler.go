@@ -3,7 +3,7 @@ package handler
 import (
 	"fiber-oauth-google/auth"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // Auth fiber handler

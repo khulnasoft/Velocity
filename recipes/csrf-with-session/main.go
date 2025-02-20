@@ -12,9 +12,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/csrf"
-	"github.com/khulnasoft/fiber/v2/middleware/session"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/csrf"
+	"go.khulnasoft.com/velocity/middleware/session"
 	"github.com/khulnasoft/template/html/v2"
 	"golang.org/x/crypto/bcrypt"
 )
@@ -46,7 +46,7 @@ func main() {
 	// See the following for more details:
 	// https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html
 	//
-	// It's recommended to use the "github.com/khulnasoft/fiber/v2/middleware/helmet"
+	// It's recommended to use the "go.khulnasoft.com/velocity/middleware/helmet"
 	// middleware to set headers to help prevent attacks such as XSS, man-in-the-middle,
 	// protocol downgrade, cookie hijacking, SSL stripping, clickjacking, etc.
 

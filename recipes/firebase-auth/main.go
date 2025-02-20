@@ -11,7 +11,7 @@ import (
 	"os"
 
 	firebase "firebase.google.com/go"
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/joho/godotenv"
 	khulnasoftfirebaseauth "github.com/sacsand/khulnasoft-firebaseauth"
 	"google.golang.org/api/option"

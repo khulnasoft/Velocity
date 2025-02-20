@@ -10,8 +10,8 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/logger"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/logger"
 	"github.com/khulnasoft/recipes/fiber-grpc/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

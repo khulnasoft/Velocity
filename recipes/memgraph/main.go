@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/neo4j/neo4j-go-driver/neo4j" // Memgraph is compatible with Neo4j GO driver, and you can use it to connect to Memgraph
 )
 

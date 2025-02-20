@@ -1,6 +1,6 @@
 package handler
 
-import "github.com/khulnasoft/fiber/v2"
+import "go.khulnasoft.com/velocity"
 
 // Hello handle api status
 func Hello(c *fiber.Ctx) error {

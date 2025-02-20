@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/khulnasoft/contrib/jwt v1.0.10
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 	github.com/golang-jwt/jwt/v5 v5.2.1
 	github.com/joho/godotenv v1.5.1
 	gorm.io/driver/postgres v1.5.9

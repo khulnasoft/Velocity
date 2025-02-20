@@ -45,7 +45,7 @@ Here is an example of how to set up Server-Timing headers in a Fiber application
 package main
 
 import (
-    "github.com/khulnasoft/fiber/v2"
+    "go.khulnasoft.com/velocity"
     "time"
 )
 

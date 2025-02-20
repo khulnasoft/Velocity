@@ -4,7 +4,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/golang-jwt/jwt/v5"
 )
 

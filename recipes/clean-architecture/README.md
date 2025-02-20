@@ -151,7 +151,7 @@ import (
     "clean-architecture/pkg/book"
     "clean-architecture/pkg/entities"
     "clean-architecture/api/presenter"
-    "github.com/khulnasoft/fiber/v2"
+    "go.khulnasoft.com/velocity"
     "net/http"
     "errors"
 )
@@ -185,7 +185,7 @@ package main
 import (
     "clean-architecture/api/routes"
     "clean-architecture/pkg/book"
-    "github.com/khulnasoft/fiber/v2"
+    "go.khulnasoft.com/velocity"
 )
 
 func main() {

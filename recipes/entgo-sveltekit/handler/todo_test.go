@@ -12,7 +12,7 @@ import (
 	"app/entity/enttest"
 	"app/handler"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/assert"
 

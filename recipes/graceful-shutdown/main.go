@@ -8,7 +8,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 const idleTimeout = 5 * time.Second

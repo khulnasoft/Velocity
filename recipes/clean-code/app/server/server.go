@@ -7,7 +7,7 @@ import (
 	"app/server/handlers"
 	"app/server/services"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // NewServer creates a new Fiber app and sets up the routes

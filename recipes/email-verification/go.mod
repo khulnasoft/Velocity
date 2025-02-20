@@ -3,7 +3,7 @@ module email-verification
 go 1.21
 
 require (
-	github.com/khulnasoft/fiber/v2 v2.52.6
+	go.khulnasoft.com/velocity v2.52.6
 	golang.org/x/crypto v0.32.0
 )
 

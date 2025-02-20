@@ -3,7 +3,7 @@ package user
 import (
 	"context"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // Represents our handler with our use-case / service.

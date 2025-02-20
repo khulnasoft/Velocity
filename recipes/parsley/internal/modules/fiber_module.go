@@ -1,7 +1,7 @@
 package modules
 
 import (
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/matzefriedrich/parsley/pkg/registration"
 	"github.com/matzefriedrich/parsley/pkg/types"
 )

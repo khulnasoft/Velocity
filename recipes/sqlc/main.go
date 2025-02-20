@@ -6,7 +6,7 @@ import (
 	"fiber-sqlc/api/route"
 	"fiber-sqlc/database"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 func init() {

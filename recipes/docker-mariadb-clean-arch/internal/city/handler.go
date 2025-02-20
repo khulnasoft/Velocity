@@ -5,7 +5,7 @@ import (
 
 	"docker-mariadb-clean-arch/internal/auth"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // We will inject our dependency - the service - here.

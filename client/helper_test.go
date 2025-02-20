@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp/fasthttputil"
-	"go.khulnasoft.com/velocity/v3"
+	"go.khulnasoft.com/velocity"
 )
 
 type testServer struct {

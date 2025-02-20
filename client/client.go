@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/fxamacker/cbor/v2"
-	"go.khulnasoft.com/velocity/v3/log"
+	"go.khulnasoft.com/velocity/log"
 
 	"go.khulnasoft.com/velocity/lib/utils"
 

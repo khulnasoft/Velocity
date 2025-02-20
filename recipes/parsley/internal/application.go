@@ -5,7 +5,7 @@ import (
 
 	"parsley-app/internal/route_handlers"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/matzefriedrich/parsley/pkg/bootstrap"
 )
 

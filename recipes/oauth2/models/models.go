@@ -2,7 +2,7 @@ package models
 
 import (
 	"github.com/antigloss/go/logger"
-	"github.com/khulnasoft/fiber/v2/middleware/session"
+	"go.khulnasoft.com/velocity/middleware/session"
 )
 
 // {"error":"bad_verification_code","error_description":"The code passed is incorrect or expired.","error_uri":"https://docs.github.com/apps/managing-oauth-apps/troubleshooting-oauth-app-access-token-request-errors/#bad-verification-code"}

@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/khulnasoft/contrib/websocket v1.3.2
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 )
 
 require (

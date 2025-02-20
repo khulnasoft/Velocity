@@ -57,7 +57,7 @@ The build process is defined in the `Buildfile` and `build.sh` scripts.
     ```bash
     #!/bin/bash -xe
     # Get dependencies
-    go get -u github.com/khulnasoft/fiber/v2
+    go get -u go.khulnasoft.com/velocity
 
     # Build the binary
     go build -o application application.go
@@ -76,7 +76,7 @@ import (
     "log"
     "os"
 
-    "github.com/khulnasoft/fiber/v2"
+    "go.khulnasoft.com/velocity"
 )
 
 func main() {

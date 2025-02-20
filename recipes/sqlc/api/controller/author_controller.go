@@ -8,7 +8,7 @@ import (
 	"fiber-sqlc/database"
 	"fiber-sqlc/database/sqlc"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 func GetAuthors(c *fiber.Ctx) error {

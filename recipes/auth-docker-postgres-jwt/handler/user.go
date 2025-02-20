@@ -7,7 +7,7 @@ import (
 	"app/model"
 
 	"github.com/go-playground/validator/v10"
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/golang-jwt/jwt/v5"
 	"golang.org/x/crypto/bcrypt"
 )

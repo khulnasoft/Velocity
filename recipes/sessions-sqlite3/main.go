@@ -7,8 +7,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/session"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/session"
 	"github.com/khulnasoft/storage/sqlite3"
 	"github.com/khulnasoft/template/html/v2"
 

@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/cache"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/cache"
 )
 
 type response struct {

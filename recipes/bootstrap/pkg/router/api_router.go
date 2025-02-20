@@ -1,8 +1,8 @@
 package router
 
 import (
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/limiter"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/limiter"
 )
 
 type ApiRouter struct{}

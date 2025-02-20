@@ -3,7 +3,7 @@ module parsley-app
 go 1.23.0
 
 require (
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 	github.com/matzefriedrich/parsley v0.8.3
 )
 

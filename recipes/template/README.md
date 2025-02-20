@@ -60,7 +60,7 @@ Here is an example of how to set up a basic route with template rendering in Go:
 package main
 
 import (
-    "github.com/khulnasoft/fiber/v2"
+    "go.khulnasoft.com/velocity"
     "github.com/khulnasoft/template/html/v2"
 )
 

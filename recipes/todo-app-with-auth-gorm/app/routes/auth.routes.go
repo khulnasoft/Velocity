@@ -3,7 +3,7 @@ package routes
 import (
 	"numtostr/gotodo/app/services"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // AuthRoutes containes all the auth routes

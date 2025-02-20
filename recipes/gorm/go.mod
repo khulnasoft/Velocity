@@ -3,7 +3,7 @@ module fiber-gorm
 go 1.18
 
 require (
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 	gorm.io/driver/sqlite v1.5.6
 	gorm.io/gorm v1.25.11
 )

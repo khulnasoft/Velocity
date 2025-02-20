@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/valyala/fasthttp/fasthttputil"
 )
 

@@ -3,7 +3,7 @@ module gorm-mysql
 go 1.18
 
 require (
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 	gorm.io/driver/mysql v1.5.7
 	gorm.io/gorm v1.25.11
 )

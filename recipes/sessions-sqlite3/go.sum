@@ -1,8 +1,8 @@
 github.com/andybalholm/brotli v1.0.5 h1:8uQZIdzKmjc/iuPu7O2ioW48L81FgatrcpfFmiq/cCs=
 github.com/andybalholm/brotli v1.0.5/go.mod h1:fO7iG3H7G2nSZ7m0zPUDn85XEX2GTukHGRSepvi9Eig=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
-github.com/khulnasoft/fiber/v2 v2.52.5 h1:tWoP1MJQjGEe4GB5TUGOi7P2E0ZMMRx5ZTG4rT+yGMo=
-github.com/khulnasoft/fiber/v2 v2.52.5/go.mod h1:KEOE+cXMhXG0zHc9d8+E38hoX+ZN7bhOtgeF2oT6jrQ=
+go.khulnasoft.com/velocity v2.52.5 h1:tWoP1MJQjGEe4GB5TUGOi7P2E0ZMMRx5ZTG4rT+yGMo=
+go.khulnasoft.com/velocity v2.52.5/go.mod h1:KEOE+cXMhXG0zHc9d8+E38hoX+ZN7bhOtgeF2oT6jrQ=
 github.com/khulnasoft/storage/sqlite3 v1.3.8 h1:ywicq0MvlO4H+IbxwvSq3GvTv25fmhEZ1LpEkd8b078=
 github.com/khulnasoft/storage/sqlite3 v1.3.8/go.mod h1:G4A9R3Ac2G9Wpb76F62oEqXUTb0ywjTIr5P7obiZmYc=
 github.com/khulnasoft/template v1.8.3 h1:hzHdvMwMo/T2kouz2pPCA0zGiLCeMnoGsQZBTSYgZxc=

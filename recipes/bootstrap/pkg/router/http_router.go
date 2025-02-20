@@ -1,9 +1,9 @@
 package router
 
 import (
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/cors"
-	"github.com/khulnasoft/fiber/v2/middleware/csrf"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/cors"
+	"go.khulnasoft.com/velocity/middleware/csrf"
 	"github.com/kooroshh/fiber-boostrap/app/controllers"
 )
 

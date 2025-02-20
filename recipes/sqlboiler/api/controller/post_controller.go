@@ -7,7 +7,7 @@ import (
 	"fiber-sqlboiler/database"
 	"fiber-sqlboiler/models"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/volatiletech/sqlboiler/v4/boil"
 )
 

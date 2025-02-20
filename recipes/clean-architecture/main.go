@@ -9,8 +9,8 @@ import (
 	"clean-architecture/api/routes"
 	"clean-architecture/pkg/book"
 
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/cors"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/cors"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

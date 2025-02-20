@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/zeimedee/go-postgres/database"
 	"github.com/zeimedee/go-postgres/models"
 )

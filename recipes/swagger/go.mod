@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
 	github.com/khulnasoft/contrib/swagger v1.2.0
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 	github.com/swaggo/swag v1.16.3
 	gorm.io/driver/postgres v1.5.9
 	gorm.io/gorm v1.25.11

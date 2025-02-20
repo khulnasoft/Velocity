@@ -9,7 +9,7 @@ import (
 	"log"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // Database instance

@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/go-sql-driver/mysql v1.8.1
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 )
 
 require (

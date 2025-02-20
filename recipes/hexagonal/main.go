@@ -5,9 +5,9 @@ import (
 	"catalog/config"
 	"catalog/repository"
 	"catalog/service"
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/logger"
-	"github.com/khulnasoft/fiber/v2/middleware/recover"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/logger"
+	"go.khulnasoft.com/velocity/middleware/recover"
 )
 
 func main() {

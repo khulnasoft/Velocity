@@ -45,7 +45,7 @@ Here is an example of how to create an RSS feed in a Fiber application:
 package main
 
 import (
-    "github.com/khulnasoft/fiber/v2"
+    "go.khulnasoft.com/velocity"
     "github.com/gorilla/feeds"
     "time"
 )

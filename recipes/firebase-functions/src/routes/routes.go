@@ -4,7 +4,7 @@ import (
 	"example.com/KhulnasoftFirebaseBoilerplate/src/database"
 	"example.com/KhulnasoftFirebaseBoilerplate/src/repositories"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 type Routes struct {

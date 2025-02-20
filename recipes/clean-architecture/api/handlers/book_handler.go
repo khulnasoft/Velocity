@@ -6,7 +6,7 @@ import (
 	"clean-architecture/api/presenter"
 	"clean-architecture/pkg/book"
 	"clean-architecture/pkg/entities"
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/pkg/errors"
 )
 

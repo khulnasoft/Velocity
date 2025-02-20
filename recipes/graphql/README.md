@@ -54,7 +54,7 @@ package main
 
 import (
     "log"
-    "github.com/khulnasoft/fiber/v2"
+    "go.khulnasoft.com/velocity"
     "github.com/99designs/gqlgen/graphql/handler"
     "github.com/99designs/gqlgen/graphql/playground"
 )

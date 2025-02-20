@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/go-sql-driver/mysql v1.8.1
 	github.com/khulnasoft/contrib/jwt v1.0.10
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 	github.com/golang-jwt/jwt/v5 v5.2.1
 )
 

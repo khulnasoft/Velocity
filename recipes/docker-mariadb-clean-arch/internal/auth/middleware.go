@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	jwtware "github.com/khulnasoft/contrib/jwt"
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/golang-jwt/jwt/v5"
 )
 

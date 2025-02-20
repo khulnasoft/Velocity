@@ -1,6 +1,6 @@
 package router
 
-import "github.com/khulnasoft/fiber/v2"
+import "go.khulnasoft.com/velocity"
 
 type Router interface {
 	InstallRouter(app *fiber.App)

@@ -6,7 +6,7 @@ import (
 	"app/server/domain"
 	"app/server/services"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // GetBooks returns a handler function that retrieves all books

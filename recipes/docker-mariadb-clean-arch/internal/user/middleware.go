@@ -3,7 +3,7 @@ package user
 import (
 	"context"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // If user does not exist, do not allow one to access the API.

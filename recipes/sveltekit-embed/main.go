@@ -3,10 +3,10 @@ package main
 import (
 	"app/template"
 
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/cors"
-	"github.com/khulnasoft/fiber/v2/middleware/filesystem"
-	"github.com/khulnasoft/fiber/v2/middleware/logger"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/cors"
+	"go.khulnasoft.com/velocity/middleware/filesystem"
+	"go.khulnasoft.com/velocity/middleware/logger"
 )
 
 const (

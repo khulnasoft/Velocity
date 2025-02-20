@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 func main() {

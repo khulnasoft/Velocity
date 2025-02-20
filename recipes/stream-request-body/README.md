@@ -45,7 +45,7 @@ Here is an example of how to handle a streaming request body in Go using Fiber:
 package main
 
 import (
-    "github.com/khulnasoft/fiber/v2"
+    "go.khulnasoft.com/velocity"
     "io"
     "log"
 )

@@ -5,7 +5,7 @@ import (
 	"os"
 	"runtime/debug"
 
-	"go.khulnasoft.com/velocity/v3"
+	"go.khulnasoft.com/velocity"
 )
 
 func defaultStackTraceHandler(_ velocity.Ctx, e any) {

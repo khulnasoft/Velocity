@@ -8,7 +8,7 @@ import (
 	"github.com/amalshaji/fiber-netlify/handler"
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambda"
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 var fiberLambda *adapter.FiberLambda

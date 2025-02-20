@@ -9,7 +9,7 @@ import (
 	"github.com/amalshaji/stoyle/helpers"
 	"github.com/asaskevich/govalidator"
 	"github.com/go-redis/redis/v8"
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/google/uuid"
 )
 

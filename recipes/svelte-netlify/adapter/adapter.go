@@ -13,7 +13,7 @@ import (
 
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/awslabs/aws-lambda-go-api-proxy/core"
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/khulnasoft/utils"
 	"github.com/valyala/fasthttp"
 )

@@ -3,7 +3,7 @@ package book
 import (
 	"fiber-gorm/database"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"gorm.io/gorm"
 )
 

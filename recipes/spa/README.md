@@ -69,8 +69,8 @@ Here is an example of how to set up a basic route in the Fiber backend to serve 
 package main
 
 import (
-    "github.com/khulnasoft/fiber/v2"
-    "github.com/khulnasoft/fiber/v2/middleware/logger"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/logger"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package handlers
 import (
 	"email-verification/application"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 type VerificationHandler struct {

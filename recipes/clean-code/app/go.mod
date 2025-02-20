@@ -3,7 +3,7 @@ module app
 go 1.23.3
 
 require (
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 	github.com/jackc/pgx/v5 v5.7.1
 	github.com/pashagolub/pgxmock/v4 v4.3.0
 	github.com/stretchr/testify v1.9.0

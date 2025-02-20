@@ -3,7 +3,7 @@ package main
 import (
 	"fiber-oauth-google/router"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/joho/godotenv"
 )
 

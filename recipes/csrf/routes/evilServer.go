@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // RegisterEvilRoutes registers the routes and middlewares necessary for the server

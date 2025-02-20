@@ -4,9 +4,9 @@ import (
 	"log"
 	"strings"
 
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/keyauth"
-	"github.com/khulnasoft/fiber/v2/middleware/logger"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/keyauth"
+	"go.khulnasoft.com/velocity/middleware/logger"
 )
 
 const (

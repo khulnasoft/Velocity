@@ -85,8 +85,8 @@ The main Go file sets up the Fiber application, handles HTTP requests, and manag
 package handler
 
 import (
- "github.com/khulnasoft/fiber/v2/middleware/adaptor"
- "github.com/khulnasoft/fiber/v2"
+ "go.khulnasoft.com/velocity/middleware/adaptor"
+ "go.khulnasoft.com/velocity"
  "net/http"
 )
 

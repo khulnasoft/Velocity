@@ -4,7 +4,7 @@ import (
 	"api-fiber-gorm/database"
 	"api-fiber-gorm/model"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // GetAllProducts query all products

@@ -7,7 +7,7 @@ import (
 	"numtostr/gotodo/app/types"
 	"numtostr/gotodo/utils"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"gorm.io/gorm"
 )
 

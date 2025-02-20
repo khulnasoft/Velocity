@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // Home renders the home view

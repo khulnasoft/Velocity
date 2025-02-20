@@ -5,7 +5,7 @@ go 1.22.0
 require (
 	github.com/khulnasoft/contrib/socketio v1.0.0
 	github.com/khulnasoft/contrib/websocket v1.3.0
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 )
 
 require (

@@ -6,8 +6,8 @@ import (
 	"app/database"
 	"app/router"
 
-	"github.com/khulnasoft/fiber/v2"
-	// "github.com/khulnasoft/fiber/v2/middleware/cors"
+	"go.khulnasoft.com/velocity"
+	// "go.khulnasoft.com/velocity/middleware/cors"
 )
 
 func main() {

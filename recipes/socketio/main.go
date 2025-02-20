@@ -13,7 +13,7 @@ import (
 
 	"github.com/khulnasoft/contrib/socketio"
 	"github.com/khulnasoft/contrib/websocket"
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // MessageObject Basic chat message object

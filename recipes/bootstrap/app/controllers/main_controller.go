@@ -1,6 +1,6 @@
 package controllers
 
-import "github.com/khulnasoft/fiber/v2"
+import "go.khulnasoft.com/velocity"
 
 func RenderHello(c *fiber.Ctx) error {
 	return c.Render("index", fiber.Map{

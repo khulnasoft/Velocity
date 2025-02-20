@@ -1,7 +1,7 @@
 package recover //nolint:predeclared // TODO: Rename to some non-builtin
 
 import (
-	"go.khulnasoft.com/velocity/v3"
+	"go.khulnasoft.com/velocity"
 )
 
 // Config defines the config for middleware.

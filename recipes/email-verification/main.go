@@ -8,7 +8,7 @@ import (
 	"email-verification/infrastructure/email"
 	"email-verification/infrastructure/repository"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 func main() {

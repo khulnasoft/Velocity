@@ -34,7 +34,7 @@ package src
 import (
  "example.com/KhulnasoftFirebaseBoilerplate/src/routes"
 
- "github.com/khulnasoft/fiber/v2"
+ "go.khulnasoft.com/velocity"
 )
 
 func CreateServer() *fiber.App {
@@ -66,7 +66,7 @@ import (
  "example.com/KhulnasoftFirebaseBoilerplate/src/database"
  "example.com/KhulnasoftFirebaseBoilerplate/src/repositories"
 
- "github.com/khulnasoft/fiber/v2"
+ "go.khulnasoft.com/velocity"
 )
 
 type Routes struct {
@@ -214,7 +214,7 @@ import (
  "net/http"
  "strings"
 
- "github.com/khulnasoft/fiber/v2"
+ "go.khulnasoft.com/velocity"
  "github.com/valyala/fasthttp/fasthttputil"
 )
 
@@ -296,7 +296,7 @@ import (
  "strings"
 
  "example.com/KhulnasoftFirebaseBoilerplate/src"
- "github.com/khulnasoft/fiber/v2"
+ "go.khulnasoft.com/velocity"
 )
 
 var app *fiber.App

@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	firebase.google.com/go v3.13.0+incompatible
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 	github.com/joho/godotenv v1.5.1
 	github.com/valyala/fasthttp v1.55.0
 )

@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 func InstallRouter(app *fiber.App) {

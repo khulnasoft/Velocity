@@ -3,7 +3,7 @@ package handlers
 import (
 	"fmt"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // Errors will process all errors returned to fiber

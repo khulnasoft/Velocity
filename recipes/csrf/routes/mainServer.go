@@ -5,11 +5,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/csrf"
-	"github.com/khulnasoft/fiber/v2/middleware/recover"
-	"github.com/khulnasoft/fiber/v2/middleware/session"
-	"github.com/khulnasoft/fiber/v2/utils"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/csrf"
+	"go.khulnasoft.com/velocity/middleware/recover"
+	"go.khulnasoft.com/velocity/middleware/session"
+	"go.khulnasoft.com/velocity/utils"
 )
 
 // region struct definitions

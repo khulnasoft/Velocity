@@ -2,7 +2,7 @@ package presenter
 
 import (
 	"clean-architecture/pkg/entities"
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 var client = http.Client{

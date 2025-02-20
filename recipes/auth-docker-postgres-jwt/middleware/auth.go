@@ -4,7 +4,7 @@ import (
 	"app/config"
 
 	jwtware "github.com/khulnasoft/contrib/jwt"
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // Protected protect routes

@@ -1,6 +1,6 @@
 package handlers
 
-import "github.com/khulnasoft/fiber/v2"
+import "go.khulnasoft.com/velocity"
 
 // Render will pass the remove IP value to the template input
 func Render() fiber.Handler {

@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"go.khulnasoft.com/velocity/lib/utils"
-	"go.khulnasoft.com/velocity/v3"
+	"go.khulnasoft.com/velocity"
 )
 
 var (

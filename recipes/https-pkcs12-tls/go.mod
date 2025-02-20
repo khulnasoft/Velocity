@@ -3,7 +3,7 @@ module main
 go 1.18
 
 require (
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 	golang.org/x/crypto v0.31.0
 )
 

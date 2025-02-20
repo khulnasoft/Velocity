@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/khulnasoft/contrib/websocket"
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // Add more data to this type if needed

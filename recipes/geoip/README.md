@@ -52,7 +52,7 @@ package main
 
 import (
     "log"
-    "github.com/khulnasoft/fiber/v2"
+    "go.khulnasoft.com/velocity"
     "github.com/oschwald/geoip2-golang"
     "net"
 )

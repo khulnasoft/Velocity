@@ -19,7 +19,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
 	"github.com/valyala/fasthttp/fasthttputil"
-	"go.khulnasoft.com/velocity/v3"
+	"go.khulnasoft.com/velocity"
 )
 
 func Test_Request_Method(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 
 	"github.com/khulnasoft/recipes/template-asset-bundling/handlers"
 
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/logger"
-	"github.com/khulnasoft/fiber/v2/middleware/recover"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/logger"
+	"go.khulnasoft.com/velocity/middleware/recover"
 	"github.com/khulnasoft/template/html/v2"
 )
 

@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"go.khulnasoft.com/velocity/lib/utils"
-	"go.khulnasoft.com/velocity/v3"
+	"go.khulnasoft.com/velocity"
 )
 
 // The contextKey type is unexported to prevent collisions with context keys defined in

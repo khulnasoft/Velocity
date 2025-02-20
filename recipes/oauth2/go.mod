@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/antigloss/go v1.19.3
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 	github.com/khulnasoft/template/html/v2 v2.1.2
 	github.com/joho/godotenv v1.5.1
 	github.com/segmentio/encoding v0.4.0

@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/cors"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/cors"
 	"github.com/zeimedee/go-postgres/database"
 	"github.com/zeimedee/go-postgres/routes"
 )

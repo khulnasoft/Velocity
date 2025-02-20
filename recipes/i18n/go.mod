@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/BurntSushi/toml v1.4.0
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 	github.com/khulnasoft/template/html/v2 v2.1.2
 	github.com/nicksnyder/go-i18n/v2 v2.4.0
 	golang.org/x/text v0.17.0

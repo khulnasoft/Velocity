@@ -1,6 +1,6 @@
 package misc
 
-import "github.com/khulnasoft/fiber/v2"
+import "go.khulnasoft.com/velocity"
 
 // Create a handler. Leave this empty, as we have no domains nor use-cases.
 type MiscHandler struct{}

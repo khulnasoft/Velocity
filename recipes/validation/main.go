@@ -6,8 +6,8 @@ import (
 	"validation/config"
 
 	"github.com/go-playground/validator/v10"
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/cors"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/cors"
 	"github.com/joho/godotenv"
 )
 

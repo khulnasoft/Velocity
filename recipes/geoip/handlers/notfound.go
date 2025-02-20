@@ -1,6 +1,6 @@
 package handlers
 
-import "github.com/khulnasoft/fiber/v2"
+import "go.khulnasoft.com/velocity"
 
 // NotFound returns status code 404 along with the given html file
 func NotFound(file string) fiber.Handler {

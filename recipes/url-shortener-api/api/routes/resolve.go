@@ -3,7 +3,7 @@ package routes
 import (
 	"github.com/amalshaji/stoyle/database"
 	"github.com/go-redis/redis/v8"
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // ResolveURL ...

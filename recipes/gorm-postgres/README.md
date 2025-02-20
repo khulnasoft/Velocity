@@ -57,7 +57,7 @@ package main
 
 import (
     "log"
-    "github.com/khulnasoft/fiber/v2"
+    "go.khulnasoft.com/velocity"
     "gorm.io/driver/postgres"
     "gorm.io/gorm"
 )

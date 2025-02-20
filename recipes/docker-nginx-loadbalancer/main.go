@@ -3,10 +3,10 @@ package main
 import (
 	"log"
 
-	"github.com/khulnasoft/fiber/v2"                    // Importing the fiber package for handling HTTP requests
-	"github.com/khulnasoft/fiber/v2/middleware/cors"    // Middleware for handling Cross-Origin Resource Sharing (CORS)
-	"github.com/khulnasoft/fiber/v2/middleware/favicon" // Middleware for serving favicon
-	"github.com/khulnasoft/fiber/v2/middleware/logger"  // Middleware for logging HTTP requests
+	"go.khulnasoft.com/velocity"                    // Importing the fiber package for handling HTTP requests
+	"go.khulnasoft.com/velocity/middleware/cors"    // Middleware for handling Cross-Origin Resource Sharing (CORS)
+	"go.khulnasoft.com/velocity/middleware/favicon" // Middleware for serving favicon
+	"go.khulnasoft.com/velocity/middleware/logger"  // Middleware for logging HTTP requests
 	// Package for logging errors
 )
 

@@ -53,7 +53,7 @@ import (
     "log"
     "time"
 
-    "github.com/khulnasoft/fiber/v2"
+    "go.khulnasoft.com/velocity"
     "go.mongodb.org/mongo-driver/mongo"
     "go.mongodb.org/mongo-driver/mongo/options"
 )

@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/cloudflare/tableflip"
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 const version = "v0.0.1"

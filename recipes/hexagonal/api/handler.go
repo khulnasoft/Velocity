@@ -1,7 +1,7 @@
 package api
 
 import (
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // ProductHandler  an interface with operations to be implemented by a specific handler, ie http, gRCP

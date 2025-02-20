@@ -3,7 +3,7 @@ module catalog
 go 1.18
 
 require (
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 	github.com/pkg/errors v0.9.1
 	go.mongodb.org/mongo-driver v1.16.1
 	gopkg.in/yaml.v2 v2.4.0

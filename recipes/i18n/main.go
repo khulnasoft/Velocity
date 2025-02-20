@@ -5,7 +5,7 @@ import (
 	"strconv"
 
 	"github.com/BurntSushi/toml"
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/khulnasoft/template/html/v2"
 	"github.com/nicksnyder/go-i18n/v2/i18n"
 	"golang.org/x/text/language"

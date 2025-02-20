@@ -15,8 +15,8 @@ import (
 	"oauth2/router"
 
 	"github.com/antigloss/go/logger"
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/session"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/session"
 	"github.com/khulnasoft/template/html/v2"
 	"github.com/segmentio/encoding/json"
 )

@@ -3,7 +3,7 @@ package handler
 import (
 	"app/entity"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/google/uuid"
 )
 

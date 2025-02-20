@@ -3,7 +3,7 @@ package handlers
 import (
 	"oauth2/models"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // HTMLPages will render and return "public" pages

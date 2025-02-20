@@ -10,8 +10,8 @@ import (
 	"os"
 
 	"github.com/amalshaji/stoyle/routes"
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/logger"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/logger"
 	"github.com/joho/godotenv"
 )
 

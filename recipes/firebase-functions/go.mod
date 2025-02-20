@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	cloud.google.com/go/firestore v1.16.0
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 	google.golang.org/api v0.192.0
 )
 

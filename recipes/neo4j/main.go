@@ -5,7 +5,7 @@ import (
 	"log"
 	"strconv"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/neo4j/neo4j-go-driver/neo4j"
 )
 

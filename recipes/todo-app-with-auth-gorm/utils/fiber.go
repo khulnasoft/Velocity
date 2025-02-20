@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // ParseBody is helper function for parsing the body.

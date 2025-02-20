@@ -3,8 +3,8 @@ package handlers
 import (
 	"time"
 
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/cache"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/cache"
 )
 
 // Cache will return a caching middleware

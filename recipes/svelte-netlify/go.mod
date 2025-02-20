@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/aws/aws-lambda-go v1.47.0
 	github.com/awslabs/aws-lambda-go-api-proxy v0.16.0
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 	github.com/khulnasoft/utils v1.1.0
 	github.com/valyala/fasthttp v1.55.0
 )

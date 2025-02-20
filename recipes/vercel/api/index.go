@@ -3,8 +3,8 @@ package handler
 import (
 	"net/http"
 
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/adaptor"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/adaptor"
 )
 
 // Handler is the main entry point of the application. Think of it like the main() method

@@ -45,8 +45,8 @@ Here is an example of how to set up the `Recover` middleware in a Fiber applicat
 package main
 
 import (
-    "github.com/khulnasoft/fiber/v2"
-    "github.com/khulnasoft/fiber/v2/middleware/recover"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/recover"
 )
 
 func main() {

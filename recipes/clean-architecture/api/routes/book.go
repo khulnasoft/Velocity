@@ -4,7 +4,7 @@ import (
 	"clean-architecture/api/handlers"
 	"clean-architecture/pkg/book"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // BookRouter is the Router for KhulnaSoft App

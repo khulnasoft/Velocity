@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"golang.org/x/crypto/pkcs12"
 )
 

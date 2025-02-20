@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"ent-mysql/database"
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 var ctx = context.Background()

@@ -3,7 +3,7 @@ module main
 go 1.18
 
 require (
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 	github.com/khulnasoft/template/django/v3 v3.1.12
 )
 

@@ -4,7 +4,7 @@ import (
 	"numtostr/gotodo/app/services"
 	"numtostr/gotodo/utils/middleware"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // TodoRoutes contains all routes relative to /todo

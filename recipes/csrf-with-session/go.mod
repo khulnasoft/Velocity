@@ -3,7 +3,7 @@ module main
 go 1.20
 
 require (
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 	github.com/khulnasoft/template/html/v2 v2.1.2
 	golang.org/x/crypto v0.31.0
 )

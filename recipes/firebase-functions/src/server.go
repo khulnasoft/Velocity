@@ -3,7 +3,7 @@ package src
 import (
 	"example.com/KhulnasoftFirebaseBoilerplate/src/routes"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 func CreateServer() *fiber.App {

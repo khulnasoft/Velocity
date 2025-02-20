@@ -9,7 +9,7 @@ import (
 	"numtostr/gotodo/utils/jwt"
 	"numtostr/gotodo/utils/password"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"gorm.io/gorm"
 )
 

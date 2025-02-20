@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/go-playground/validator/v10"
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 var validate = validator.New()

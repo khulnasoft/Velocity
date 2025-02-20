@@ -3,7 +3,7 @@ module fiber-oauth-google
 go 1.18
 
 require (
-	github.com/khulnasoft/fiber/v2 v2.52.5
+	go.khulnasoft.com/velocity v2.52.5
 	github.com/joho/godotenv v1.5.1
 	golang.org/x/oauth2 v0.22.0
 )

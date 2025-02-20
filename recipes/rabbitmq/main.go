@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/logger"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/logger"
 	amqp "github.com/rabbitmq/amqp091-go"
 )
 

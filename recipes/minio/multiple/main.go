@@ -11,7 +11,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 	"github.com/khulnasoft/storage/minio"
 )
 

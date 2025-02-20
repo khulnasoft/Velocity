@@ -6,7 +6,7 @@ import (
 	"gorm-mysql/database"
 	"gorm-mysql/models"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // Hello

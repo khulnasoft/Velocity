@@ -4,7 +4,7 @@ import (
 	"app/database"
 	"app/model"
 
-	"github.com/khulnasoft/fiber/v2"
+	"go.khulnasoft.com/velocity"
 )
 
 // GetAllProducts query all products

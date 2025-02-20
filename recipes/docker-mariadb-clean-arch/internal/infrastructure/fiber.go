@@ -10,15 +10,15 @@ import (
 	"docker-mariadb-clean-arch/internal/user"
 
 	_ "github.com/go-sql-driver/mysql"
-	"github.com/khulnasoft/fiber/v2"
-	"github.com/khulnasoft/fiber/v2/middleware/compress"
-	"github.com/khulnasoft/fiber/v2/middleware/cors"
-	"github.com/khulnasoft/fiber/v2/middleware/etag"
-	"github.com/khulnasoft/fiber/v2/middleware/favicon"
-	"github.com/khulnasoft/fiber/v2/middleware/limiter"
-	"github.com/khulnasoft/fiber/v2/middleware/logger"
-	"github.com/khulnasoft/fiber/v2/middleware/recover"
-	"github.com/khulnasoft/fiber/v2/middleware/requestid"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/compress"
+	"go.khulnasoft.com/velocity/middleware/cors"
+	"go.khulnasoft.com/velocity/middleware/etag"
+	"go.khulnasoft.com/velocity/middleware/favicon"
+	"go.khulnasoft.com/velocity/middleware/limiter"
+	"go.khulnasoft.com/velocity/middleware/logger"
+	"go.khulnasoft.com/velocity/middleware/recover"
+	"go.khulnasoft.com/velocity/middleware/requestid"
 )
 
 // Run our Fiber webserver.
