@@ -1,0 +1,44 @@
+package handler
+
+import (
+	"encoding/json"
+	"io"
+	"net/http"
+	"time"
+
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/cache"
+)
+
+type response struct {
+	Status    string  `json:"status"`
+	Country   string  `json:"country"`
+	Region    string  `json:"regionName"`
+	Latitude  float32 `json:"lat"`
+	Longitude float32 `json:"lon"`
+	ISP       string  `json:"isp"`
+}
+
+// CacheRequest caches the request for subsequent use
+func CacheRequest(exp time.Duration) velocity.Handler {
+	return cache.New(cache.Config{
+		Expiration:   exp,
+		CacheControl: true,
+	})
+}
+
+// GeoLocation fetches the details of the IP from a public http API
+func GeoLocation(c *velocity.Ctx) error {
+	ip := c.Params("ip")
+	res, _ := http.Get("http://ip-api.com/json/" + ip)
+	body, _ := io.ReadAll(res.Body)
+
+	var resp response
+	json.Unmarshal(body, &resp)
+	if resp.Status == "fail" {
+		return c.Status(velocity.StatusBadRequest).JSON(velocity.Map{
+			"message": "enter an ip",
+		})
+	}
+	return c.Status(velocity.StatusOK).JSON(resp)
+}

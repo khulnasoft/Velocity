@@ -1,0 +1,72 @@
+name: Build KhulnaSoft Recipes
+
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths-ignore:
+      - "**.md"
+  pull_request:
+    branches:
+      - '*'
+    paths-ignore:
+      - "**.md"
+
+jobs:
+  builds:
+    strategy:
+      matrix:
+        go-version:
+          - oldstable
+          - stable
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history so diffs can be performed
+
+      - name: Setup Go
+        uses: actions/setup-go@f111f3307d8850f501ac008e886eec1fd1932a34 # v5.3.0
+        with:
+          go-version: ${{ matrix.go-version }}
+          cache: true
+          cache-dependency-path: |
+            **/go.sum
+            **/go.mod
+
+      - name: Get directories to process
+        id: get_dirs
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            # Get the changed directories for the entire pull request
+            changed_dirs=$(git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | awk -F'/' '{print $1}' | sort -u | tr '\n' ' ')
+          else
+            # For master branch, process all directories with go.mod
+            changed_dirs=$(find . -name go.mod -exec dirname {} \; | tr '\n' ' ')
+          fi
+
+          echo "changed_dirs<<EOF" >> $GITHUB_ENV
+          echo "${changed_dirs}" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+
+      - name: Run go vet for changed directories
+        run: |
+          for dir in ${{ env.changed_dirs }}; do
+            echo "Running go vet in directory: ${dir}"
+            if [ -f "${dir}/go.mod" ]; then
+              (cd $dir; go vet ./...);
+            fi
+          done
+
+      - name: Run go build for changed directories
+        run: |
+          for dir in ${{ env.changed_dirs }}; do
+            echo "Running go build in directory: ${dir}"
+            if [ -f "${dir}/go.mod" ]; then
+              (cd $dir; go build -race ./...);
+            fi
+          done

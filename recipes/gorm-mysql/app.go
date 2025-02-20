@@ -1,0 +1,35 @@
+package main
+
+import (
+	"log"
+
+	"gorm-mysql/database"
+	"gorm-mysql/routes"
+
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/cors"
+)
+
+func setUpRoutes(app *velocity.App) {
+	app.Get("/hello", routes.Hello)
+	app.Get("/allbooks", routes.AllBooks)
+	app.Get("/book/:id", routes.GetBook)
+	app.Post("/book", routes.AddBook)
+	app.Put("/book/:id", routes.Update)
+	app.Delete("/book/:id", routes.Delete)
+}
+
+func main() {
+	database.ConnectDb()
+	app := velocity.New()
+
+	setUpRoutes(app)
+
+	app.Use(cors.New())
+
+	app.Use(func(c *velocity.Ctx) error {
+		return c.SendStatus(404) // => 404 "Not Found"
+	})
+
+	log.Fatal(app.Listen(":3000"))
+}

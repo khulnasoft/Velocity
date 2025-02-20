@@ -1,0 +1,53 @@
+package book
+
+import (
+	"velocity-gorm/database"
+
+	"go.khulnasoft.com/velocity"
+	"gorm.io/gorm"
+)
+
+type Book struct {
+	gorm.Model
+	Title  string `json:"name"`
+	Author string `json:"author"`
+	Rating int    `json:"rating"`
+}
+
+func GetBooks(c *velocity.Ctx) error {
+	db := database.DBConn
+	var books []Book
+	db.Find(&books)
+	return c.JSON(books)
+}
+
+func GetBook(c *velocity.Ctx) error {
+	id := c.Params("id")
+	db := database.DBConn
+	var book Book
+	db.Find(&book, id)
+	return c.JSON(book)
+}
+
+func NewBook(c *velocity.Ctx) error {
+	db := database.DBConn
+	book := new(Book)
+	if err := c.BodyParser(book); err != nil {
+		return c.Status(503).SendString(err.Error())
+	}
+	db.Create(&book)
+	return c.JSON(book)
+}
+
+func DeleteBook(c *velocity.Ctx) error {
+	id := c.Params("id")
+	db := database.DBConn
+
+	var book Book
+	db.First(&book, id)
+	if book.Title == "" {
+		return c.Status(500).SendString("No Book Found with ID")
+	}
+	db.Delete(&book)
+	return c.SendString("Book Successfully deleted")
+}

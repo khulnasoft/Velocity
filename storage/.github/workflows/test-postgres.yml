@@ -1,0 +1,45 @@
+on:
+    push:
+        branches:
+            - master
+            - main
+        paths:
+            - 'postgres/**'
+    pull_request:
+        paths:
+            - 'postgres/**'
+name: "Tests Postgres"
+jobs:
+    Tests:
+        runs-on: ubuntu-latest
+        services:
+            postgres:
+                image: 'postgres:latest'
+                ports:
+                    - '5432:5432'
+                env:
+                    POSTGRES_DB: velocity
+                    POSTGRES_USER: username
+                    POSTGRES_PASSWORD: "pass#w%rd"
+                options: >-
+                    --health-cmd pg_isready --health-interval 10s --health-timeout 5s
+                    --health-retries 5
+        strategy:
+            matrix:
+                go-version:
+                    - 1.20.x
+                    - 1.21.x
+                    - 1.22.x
+        steps:
+            -   name: Fetch Repository
+                uses: actions/checkout@v4
+            -   name: Install Go
+                uses: actions/setup-go@v5
+                with:
+                    go-version: '${{ matrix.go-version }}'
+            -   name: Run Test
+                run: cd ./postgres && go test ./... -v -race
+                env:
+                    POSTGRES_DATABASE: velocity
+                    POSTGRES_USERNAME: username
+                    POSTGRES_PASSWORD: "pass#w%rd"

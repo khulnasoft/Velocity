@@ -1,0 +1,80 @@
+// ⚡️ Velocity is an Express inspired web framework written in Go with ☕️
+// 🤖 Github Repository: https://github.com/khulnasoft/velocity
+// 📌 API Documentation: https://docs.khulnasoft.io
+
+package main
+
+import (
+	"context"
+	"fmt"
+	"log"
+	"strconv"
+
+	"go.khulnasoft.com/velocity/recipes/velocity-grpc/proto"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/logger"
+	"google.golang.org/grpc"
+	"google.golang.org/grpc/credentials/insecure"
+)
+
+func main() {
+	conn, err := grpc.Dial("localhost:4040", grpc.WithTransportCredentials(insecure.NewCredentials()))
+	if err != nil {
+		panic(err)
+	}
+	client := proto.NewAddServiceClient(conn)
+
+	// g := gin.Default()
+	app := velocity.New()
+
+	app.Use(logger.New())
+
+	app.Get("/add/:a/:b", func(c *velocity.Ctx) error {
+		a, err := strconv.ParseUint(c.Params("a"), 10, 64)
+		if err != nil {
+			return c.Status(velocity.StatusBadRequest).JSON(velocity.Map{
+				"error": "Invalid argument A",
+			})
+		}
+		b, err := strconv.ParseUint(c.Params("b"), 10, 64)
+		if err != nil {
+			return c.Status(velocity.StatusBadRequest).JSON(velocity.Map{
+				"error": "Invalid argument B",
+			})
+		}
+		req := &proto.Request{A: int64(a), B: int64(b)}
+		if res, err := client.Add(context.Background(), req); err == nil {
+			return c.Status(velocity.StatusOK).JSON(velocity.Map{
+				"result": fmt.Sprint(res.Result),
+			})
+		}
+		return c.Status(velocity.StatusInternalServerError).JSON(velocity.Map{
+			"error": err.Error(),
+		})
+	})
+
+	app.Get("/mult/:a/:b", func(c *velocity.Ctx) error {
+		a, err := strconv.ParseUint(c.Params("a"), 10, 64)
+		if err != nil {
+			return c.Status(velocity.StatusBadRequest).JSON(velocity.Map{
+				"error": "Invalid argument A",
+			})
+		}
+		b, err := strconv.ParseUint(c.Params("b"), 10, 64)
+		if err != nil {
+			return c.Status(velocity.StatusBadRequest).JSON(velocity.Map{
+				"error": "Invalid argument B",
+			})
+		}
+		req := &proto.Request{A: int64(a), B: int64(b)}
+		if res, err := client.Multiply(context.Background(), req); err == nil {
+			return c.Status(velocity.StatusOK).JSON(velocity.Map{
+				"result": fmt.Sprint(res.Result),
+			})
+		}
+		return c.Status(velocity.StatusInternalServerError).JSON(velocity.Map{
+			"error": err.Error(),
+		})
+	})
+	log.Fatal(app.Listen(":3000"))
+}
