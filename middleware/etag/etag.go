@@ -5,8 +5,8 @@ import (
 	"hash/crc32"
 	"math"
 
+	"github.com/khulnasoft/velocity"
 	"github.com/valyala/bytebufferpool"
-	"go.khulnasoft.com/velocity"
 )
 
 // New creates a new middleware handler

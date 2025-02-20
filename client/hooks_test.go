@@ -11,9 +11,9 @@ import (
 	"testing"
 
 	"github.com/fxamacker/cbor/v2"
+	"github.com/khulnasoft/velocity"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.khulnasoft.com/velocity"
 )
 
 func Test_Rand_String(t *testing.T) {

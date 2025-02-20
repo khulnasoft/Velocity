@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/utils"
 
 	"github.com/valyala/fasthttp"
 )
@@ -180,7 +180,7 @@ func doAction(
 	copiedURL := utils.CopyString(addr)
 	req.SetRequestURI(copiedURL)
 	// NOTE: if req.isTLS is true, SetRequestURI keeps the scheme as https.
-	// Reference: https://go.khulnasoft.com/velocity/issues/1762
+	// Reference: https://github.com/khulnasoft/velocity/issues/1762
 	if scheme := getScheme(utils.UnsafeBytes(copiedURL)); len(scheme) > 0 {
 		req.URI().SetSchemeBytes(scheme)
 	}

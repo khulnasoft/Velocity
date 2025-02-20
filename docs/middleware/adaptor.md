@@ -30,8 +30,8 @@ import (
     "fmt"
     "net/http"
 
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/adaptor"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/adaptor"
 )
 
 func main() {
@@ -66,8 +66,8 @@ import (
     "log"
     "net/http"
 
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/adaptor"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/adaptor"
 )
 
 func main() {
@@ -97,8 +97,8 @@ package main
 import (
     "net/http"
 
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/adaptor"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/adaptor"
 )
 
 func main() {
@@ -125,8 +125,8 @@ package main
 import (
     "net/http"
 
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/adaptor"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/adaptor"
 )
 
 func main() {
@@ -151,8 +151,8 @@ package main
 import (
     "net/http"
 
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/adaptor"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/adaptor"
 )
 
 func main() {

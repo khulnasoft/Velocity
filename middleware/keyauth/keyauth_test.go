@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"testing"
 
+	"github.com/khulnasoft/velocity"
 	"github.com/stretchr/testify/require"
-	"go.khulnasoft.com/velocity"
 )
 
 const CorrectKey = "specials: !$%,.#\"!?~`<>@$^*(){}[]|/\\123"

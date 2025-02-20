@@ -6,7 +6,7 @@ import (
 	"errors"
 	"sync"
 
-	"go.khulnasoft.com/velocity"
+	"github.com/khulnasoft/velocity"
 )
 
 // Middleware holds session data and configuration.

@@ -110,8 +110,8 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/logger"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/logger"
 )
 
 type Host struct {
@@ -170,4 +170,4 @@ func main() {
 }
 ```
 
-If more information is needed, please refer to this issue [#750](https://go.khulnasoft.com/velocity/issues/750)
+If more information is needed, please refer to this issue [#750](https://github.com/khulnasoft/velocity/issues/750)

@@ -4,7 +4,7 @@ id: recover
 
 # Recover
 
-Recover middleware for [Velocity](https://go.khulnasoft.com/velocity) that recovers from panics anywhere in the stack chain and handles the control to the centralized [ErrorHandler](https://docs.khulnasoft.com/guide/error-handling).
+Recover middleware for [Velocity](https://github.com/khulnasoft/velocity) that recovers from panics anywhere in the stack chain and handles the control to the centralized [ErrorHandler](https://docs.khulnasoft.com/guide/error-handling).
 
 ## Signatures
 
@@ -18,8 +18,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    recoverer "go.khulnasoft.com/velocity/middleware/recover"
+    "github.com/khulnasoft/velocity"
+    recoverer "github.com/khulnasoft/velocity/middleware/recover"
 )
 ```
 

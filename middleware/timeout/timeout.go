@@ -5,7 +5,7 @@ import (
 	"errors"
 	"time"
 
-	"go.khulnasoft.com/velocity"
+	"github.com/khulnasoft/velocity"
 )
 
 // New enforces a timeout for each incoming request. If the timeout expires or

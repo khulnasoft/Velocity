@@ -4,7 +4,7 @@ id: expvar
 
 # ExpVar
 
-Expvar middleware for [Velocity](https://go.khulnasoft.com/velocity) that serves via its HTTP server runtime exposed variants in the JSON format. The package is typically only imported for the side effect of registering its HTTP handlers. The handled path is `/debug/vars`.
+Expvar middleware for [Velocity](https://github.com/khulnasoft/velocity) that serves via its HTTP server runtime exposed variants in the JSON format. The package is typically only imported for the side effect of registering its HTTP handlers. The handled path is `/debug/vars`.
 
 ## Signatures
 
@@ -18,8 +18,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    expvarmw "go.khulnasoft.com/velocity/middleware/expvar"
+    "github.com/khulnasoft/velocity"
+    expvarmw "github.com/khulnasoft/velocity/middleware/expvar"
 )
 ```
 

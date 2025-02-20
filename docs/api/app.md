@@ -25,7 +25,7 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity"
+    "github.com/khulnasoft/velocity"
 )
 
 func main() {
@@ -57,7 +57,7 @@ package main
 import (
     "fmt"
 
-    "go.khulnasoft.com/velocity"
+    "github.com/khulnasoft/velocity"
 )
 
 func main() {
@@ -96,7 +96,7 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity"
+    "github.com/khulnasoft/velocity"
 )
 
 func main() {
@@ -160,7 +160,7 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity"
+    "github.com/khulnasoft/velocity"
 )
 
 func main() {
@@ -222,7 +222,7 @@ import (
     "encoding/json"
     "log"
 
-    "go.khulnasoft.com/velocity"
+    "github.com/khulnasoft/velocity"
 )
 
 var handler = func(c velocity.Ctx) error { return nil }
@@ -291,7 +291,7 @@ import (
     "fmt"
     "log"
 
-    "go.khulnasoft.com/velocity"
+    "github.com/khulnasoft/velocity"
 )
 
 func main() {
@@ -404,7 +404,7 @@ import (
     "fmt"
     "log"
 
-    "go.khulnasoft.com/velocity"
+    "github.com/khulnasoft/velocity"
 )
 
 func main() {
@@ -453,7 +453,7 @@ import (
     "fmt"
     "log"
 
-    "go.khulnasoft.com/velocity"
+    "github.com/khulnasoft/velocity"
 )
 
 func main() {
@@ -526,7 +526,7 @@ package main
 import (
     "fmt"
 
-    "go.khulnasoft.com/velocity"
+    "github.com/khulnasoft/velocity"
 )
 
 type CustomCtx struct {
@@ -570,7 +570,7 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity"
+    "github.com/khulnasoft/velocity"
     "gopkg.in/yaml.v2"
 )
 
@@ -657,7 +657,7 @@ import (
     "net/http"
     "net/http/httptest"
 
-    "go.khulnasoft.com/velocity"
+    "github.com/khulnasoft/velocity"
 )
 
 func main() {
@@ -738,7 +738,7 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity"
+    "github.com/khulnasoft/velocity"
 )
 
 func main() {

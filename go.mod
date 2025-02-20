@@ -1,19 +1,19 @@
-module go.khulnasoft.com/velocity
+module github.com/khulnasoft/velocity
 
 go 1.23
 
-replace go.khulnasoft.com/velocity/utils => ./utils
+replace github.com/khulnasoft/velocity/utils => ./utils
 
 require (
 	github.com/google/uuid v1.6.0
 	github.com/khulnasoft/schema v1.0.0
+	github.com/khulnasoft/velocity/utils v0.0.0-00010101000000-000000000000
 	github.com/mattn/go-colorable v0.1.14
 	github.com/mattn/go-isatty v0.0.20
 	github.com/stretchr/testify v1.10.0
 	github.com/tinylib/msgp v1.2.5
 	github.com/valyala/bytebufferpool v1.0.0
 	github.com/valyala/fasthttp v1.59.0
-	go.khulnasoft.com/velocity/utils v0.0.0-00010101000000-000000000000
 	golang.org/x/crypto v0.33.0
 )
 

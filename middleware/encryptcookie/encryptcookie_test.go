@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/khulnasoft/velocity"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity"
 )
 
 func Test_Middleware_Panics(t *testing.T) {

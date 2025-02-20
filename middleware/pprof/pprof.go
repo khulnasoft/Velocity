@@ -4,9 +4,9 @@ import (
 	"net/http/pprof"
 	"strings"
 
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/valyala/fasthttp/fasthttpadaptor"
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
 )
 
 // New creates a new middleware handler

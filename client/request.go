@@ -13,9 +13,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
 )
 
 // WithStruct is implemented by types that allow data to be stored from a struct via reflection.

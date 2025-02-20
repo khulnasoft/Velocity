@@ -3,9 +3,9 @@ package logger
 import (
 	"io"
 
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
-	velocitylog "go.khulnasoft.com/velocity/log"
+	"github.com/khulnasoft/velocity"
+	velocitylog "github.com/khulnasoft/velocity/log"
+	"github.com/khulnasoft/velocity/utils"
 )
 
 func methodColor(method string, colors velocity.Colors) string {

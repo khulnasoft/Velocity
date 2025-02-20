@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
-	"go.khulnasoft.com/velocity/internal/memory"
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/internal/memory"
+	"github.com/khulnasoft/velocity/utils"
 )
 
 // msgp -file="storage_manager.go" -o="storage_manager_msgp.go" -tests=true -unexported

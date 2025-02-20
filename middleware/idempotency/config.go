@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"go.khulnasoft.com/velocity"
-	"go.khulnasoft.com/velocity/internal/storage/memory"
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/internal/storage/memory"
 )
 
 var ErrInvalidIdempotencyKey = errors.New("invalid idempotency key")

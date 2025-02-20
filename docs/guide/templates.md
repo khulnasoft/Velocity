@@ -206,7 +206,7 @@ app.Get("/", func (c velocity.Ctx) error {
 </TabItem>
 </Tabs>
 
-* For more advanced template documentation, please visit the [khulnasoft/template GitHub Repository](https://github.com/khulnasoft/template).
+* For more advanced template documentation, please visit the [khulnasoft/template GitHub Repository](https://github.com/khulnasoft/velocity/template).
 
 ## Full Example
 
@@ -218,8 +218,8 @@ package main
 
 import (
     "log"
-    "go.khulnasoft.com/velocity"
-    "github.com/khulnasoft/template/html/v2"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/template/html/v2"
 )
 
 func main() {

@@ -4,7 +4,7 @@ id: idempotency
 
 # Idempotency
 
-Idempotency middleware for [Velocity](https://go.khulnasoft.com/velocity) allows for fault-tolerant APIs where duplicate requests — for example due to networking issues on the client-side — do not erroneously cause the same action performed multiple times on the server-side.
+Idempotency middleware for [Velocity](https://github.com/khulnasoft/velocity) allows for fault-tolerant APIs where duplicate requests — for example due to networking issues on the client-side — do not erroneously cause the same action performed multiple times on the server-side.
 
 Refer to [datatracker](https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header-02) for a better understanding.
 
@@ -22,8 +22,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/idempotency"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/idempotency"
 )
 ```
 

@@ -4,7 +4,7 @@ id: cache
 
 # Cache
 
-Cache middleware for [Velocity](https://go.khulnasoft.com/velocity) designed to intercept responses and cache them. This middleware will cache the `Body`, `Content-Type` and `StatusCode` using the `c.Path()` as unique identifier. Special thanks to [@codemicro](https://github.com/codemicro/velocity-cache) for creating this middleware for Velocity core!
+Cache middleware for [Velocity](https://github.com/khulnasoft/velocity) designed to intercept responses and cache them. This middleware will cache the `Body`, `Content-Type` and `StatusCode` using the `c.Path()` as unique identifier. Special thanks to [@codemicro](https://github.com/codemicro/velocity-cache) for creating this middleware for Velocity core!
 
 Request Directives<br />
 `Cache-Control: no-cache` will return the up-to-date response but still caches it. You will always get a `miss` cache status.<br />
@@ -47,8 +47,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/cache"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/cache"
 )
 ```
 

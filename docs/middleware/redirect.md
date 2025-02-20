@@ -18,8 +18,8 @@ func New(config ...Config) velocity.Handler
 package main
 
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/redirect"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/redirect"
 )
 
 func main() {

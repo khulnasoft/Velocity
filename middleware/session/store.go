@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
-	"go.khulnasoft.com/velocity/internal/storage/memory"
-	"go.khulnasoft.com/velocity/log"
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/internal/storage/memory"
+	"github.com/khulnasoft/velocity/log"
+	"github.com/khulnasoft/velocity/utils"
 )
 
 // ErrEmptySessionID is an error that occurs when the session ID is empty.

@@ -1,5 +1,5 @@
 // ⚡️ Velocity is an Express inspired web framework written in Go with ☕️
-// 📄 Github Repository: https://go.khulnasoft.com/velocity
+// 📄 Github Repository: https://github.com/khulnasoft/velocity
 // 📌 API Documentation: https://docs.khulnasoft.com
 // ⚠️ This path parser was inspired by ucarion/urlpath (MIT License).
 // 💖 Maintained and modified for Velocity by @khulnasoft-bot
@@ -14,7 +14,7 @@ import (
 	"unicode"
 
 	"github.com/google/uuid"
-	"go.khulnasoft.com/velocity/utils"
+	"github.com/khulnasoft/velocity/utils"
 )
 
 // routeParser holds the path segments and param names

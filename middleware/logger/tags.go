@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go.khulnasoft.com/velocity"
+	"github.com/khulnasoft/velocity"
 )
 
 // Logger variables

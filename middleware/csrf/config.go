@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
-	"go.khulnasoft.com/velocity/log"
-	"go.khulnasoft.com/velocity/middleware/session"
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/log"
+	"github.com/khulnasoft/velocity/middleware/session"
+	"github.com/khulnasoft/velocity/utils"
 )
 
 // Config defines the config for middleware.

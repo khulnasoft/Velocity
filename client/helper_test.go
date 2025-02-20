@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/khulnasoft/velocity"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp/fasthttputil"
-	"go.khulnasoft.com/velocity"
 )
 
 type testServer struct {

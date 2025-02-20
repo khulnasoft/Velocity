@@ -4,7 +4,7 @@ id: limiter
 
 # Limiter
 
-Limiter middleware for [Velocity](https://go.khulnasoft.com/velocity) that is used to limit repeat requests to public APIs and/or endpoints such as password reset. It is also useful for API clients, web crawling, or other tasks that need to be throttled.
+Limiter middleware for [Velocity](https://github.com/khulnasoft/velocity) that is used to limit repeat requests to public APIs and/or endpoints such as password reset. It is also useful for API clients, web crawling, or other tasks that need to be throttled.
 
 :::note
 This middleware uses our [Storage](https://github.com/khulnasoft/storage) package to support various databases through a single interface. The default configuration for this middleware saves data to memory, see the examples below for other databases.
@@ -26,8 +26,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/limiter"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/limiter"
 )
 ```
 

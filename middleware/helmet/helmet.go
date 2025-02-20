@@ -3,7 +3,7 @@ package helmet
 import (
 	"fmt"
 
-	"go.khulnasoft.com/velocity"
+	"github.com/khulnasoft/velocity"
 )
 
 // New creates a new middleware handler

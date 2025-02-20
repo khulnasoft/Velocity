@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/utils"
 )
 
 var (

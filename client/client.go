@@ -14,9 +14,9 @@ import (
 	"time"
 
 	"github.com/fxamacker/cbor/v2"
-	"go.khulnasoft.com/velocity/log"
+	"github.com/khulnasoft/velocity/log"
 
-	"go.khulnasoft.com/velocity/utils"
+	"github.com/khulnasoft/velocity/utils"
 
 	"github.com/valyala/fasthttp"
 	"github.com/valyala/fasthttp/fasthttpproxy"

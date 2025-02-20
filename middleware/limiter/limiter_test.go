@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/internal/storage/memory"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity"
-	"go.khulnasoft.com/velocity/internal/storage/memory"
 )
 
 // go test -run Test_Limiter_With_Max_Func_With_Zero -race -v

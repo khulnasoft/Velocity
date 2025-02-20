@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/middleware/idempotency"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity"
-	"go.khulnasoft.com/velocity/middleware/idempotency"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

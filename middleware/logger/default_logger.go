@@ -6,11 +6,11 @@ import (
 	"os"
 	"strconv"
 
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
 	"github.com/valyala/bytebufferpool"
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
 )
 
 // default logger for velocity

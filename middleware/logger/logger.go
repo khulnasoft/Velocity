@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.khulnasoft.com/velocity"
+	"github.com/khulnasoft/velocity"
 )
 
 // New creates a new middleware handler

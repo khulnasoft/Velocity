@@ -3,9 +3,9 @@ package csrf
 import (
 	"time"
 
-	"go.khulnasoft.com/velocity"
-	"go.khulnasoft.com/velocity/log"
-	"go.khulnasoft.com/velocity/middleware/session"
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/log"
+	"github.com/khulnasoft/velocity/middleware/session"
 )
 
 type sessionManager struct {

@@ -4,7 +4,7 @@ id: earlydata
 
 # EarlyData
 
-The Early Data middleware for [Velocity](https://go.khulnasoft.com/velocity) adds support for TLS 1.3's early data ("0-RTT") feature.
+The Early Data middleware for [Velocity](https://github.com/khulnasoft/velocity) adds support for TLS 1.3's early data ("0-RTT") feature.
 Citing [RFC 8446](https://datatracker.ietf.org/doc/html/rfc8446#section-2-3), when a client and server share a PSK, TLS 1.3 allows clients to send data on the first flight ("early data") to speed up the request, effectively reducing the regular 1-RTT request to a 0-RTT request.
 
 Make sure to enable velocity's `TrustProxy` config option before using this middleware in order to not trust bogus HTTP request headers of the client.
@@ -30,8 +30,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/earlydata"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/earlydata"
 )
 ```
 

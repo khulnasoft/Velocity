@@ -4,7 +4,7 @@ id: basicauth
 
 # BasicAuth
 
-Basic Authentication middleware for [Velocity](https://go.khulnasoft.com/velocity) that provides an HTTP basic authentication. It calls the next handler for valid credentials and [401 Unauthorized](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401) or a custom response for missing or invalid credentials.
+Basic Authentication middleware for [Velocity](https://github.com/khulnasoft/velocity) that provides an HTTP basic authentication. It calls the next handler for valid credentials and [401 Unauthorized](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401) or a custom response for missing or invalid credentials.
 
 ## Signatures
 
@@ -20,8 +20,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/basicauth"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/basicauth"
 )
 ```
 

@@ -4,7 +4,7 @@ id: healthcheck
 
 # Health Check
 
-Liveness, readiness and startup probes middleware for [Velocity](https://go.khulnasoft.com/velocity) that provides three endpoints for checking the liveness, readiness, and startup state of HTTP applications.
+Liveness, readiness and startup probes middleware for [Velocity](https://github.com/khulnasoft/velocity) that provides three endpoints for checking the liveness, readiness, and startup state of HTTP applications.
 
 ## Overview
 
@@ -32,16 +32,16 @@ func NewHealthChecker(config Config) velocity.Handler
 
 ## Examples
 
-Import the middleware package that is part of the [Velocity](https://go.khulnasoft.com/velocity) web framework
+Import the middleware package that is part of the [Velocity](https://github.com/khulnasoft/velocity) web framework
 
 ```go
 import(
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/healthcheck"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/healthcheck"
 )
 ```
 
-After you initiate your [Velocity](https://go.khulnasoft.com/velocity) app, you can use the following possibilities:
+After you initiate your [Velocity](https://github.com/khulnasoft/velocity) app, you can use the following possibilities:
 
 ```go
 // Provide a minimal config for liveness check

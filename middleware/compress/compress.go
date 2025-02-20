@@ -1,8 +1,8 @@
 package compress
 
 import (
+	"github.com/khulnasoft/velocity"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity"
 )
 
 // New creates a new middleware handler

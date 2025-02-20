@@ -1,69 +1,69 @@
 // ⚡️ Velocity is an Express inspired web framework written in Go with ☕️
-// 🤖 Github Repository: https://go.khulnasoft.com/velocity
+// 🤖 Github Repository: https://github.com/khulnasoft/velocity
 // 📌 API Documentation: https://docs.khulnasoft.com
 
 package utils
 
 import (
-    "bytes"
-    "testing"
+	"bytes"
+	"testing"
 
-    "github.com/stretchr/testify/require"
+	"github.com/stretchr/testify/require"
 )
 
 func Test_ToLowerBytes(t *testing.T) {
-    t.Parallel()
+	t.Parallel()
 
-    require.Equal(t, []byte("/my/name/is/:param/*"), ToLowerBytes([]byte("/MY/NAME/IS/:PARAM/*")))
-    require.Equal(t, []byte("/my1/name/is/:param/*"), ToLowerBytes([]byte("/MY1/NAME/IS/:PARAM/*")))
-    require.Equal(t, []byte("/my2/name/is/:param/*"), ToLowerBytes([]byte("/MY2/NAME/IS/:PARAM/*")))
-    require.Equal(t, []byte("/my3/name/is/:param/*"), ToLowerBytes([]byte("/MY3/NAME/IS/:PARAM/*")))
-    require.Equal(t, []byte("/my4/name/is/:param/*"), ToLowerBytes([]byte("/MY4/NAME/IS/:PARAM/*")))
+	require.Equal(t, []byte("/my/name/is/:param/*"), ToLowerBytes([]byte("/MY/NAME/IS/:PARAM/*")))
+	require.Equal(t, []byte("/my1/name/is/:param/*"), ToLowerBytes([]byte("/MY1/NAME/IS/:PARAM/*")))
+	require.Equal(t, []byte("/my2/name/is/:param/*"), ToLowerBytes([]byte("/MY2/NAME/IS/:PARAM/*")))
+	require.Equal(t, []byte("/my3/name/is/:param/*"), ToLowerBytes([]byte("/MY3/NAME/IS/:PARAM/*")))
+	require.Equal(t, []byte("/my4/name/is/:param/*"), ToLowerBytes([]byte("/MY4/NAME/IS/:PARAM/*")))
 }
 
 func Test_ToUpperBytes(t *testing.T) {
-    t.Parallel()
+	t.Parallel()
 
-    require.Equal(t, []byte("/MY/NAME/IS/:PARAM/*"), ToUpperBytes([]byte("/my/name/is/:param/*")))
-    require.Equal(t, []byte("/MY1/NAME/IS/:PARAM/*"), ToUpperBytes([]byte("/my1/name/is/:param/*")))
-    require.Equal(t, []byte("/MY2/NAME/IS/:PARAM/*"), ToUpperBytes([]byte("/my2/name/is/:param/*")))
-    require.Equal(t, []byte("/MY3/NAME/IS/:PARAM/*"), ToUpperBytes([]byte("/my3/name/is/:param/*")))
-    require.Equal(t, []byte("/MY4/NAME/IS/:PARAM/*"), ToUpperBytes([]byte("/my4/name/is/:param/*")))
+	require.Equal(t, []byte("/MY/NAME/IS/:PARAM/*"), ToUpperBytes([]byte("/my/name/is/:param/*")))
+	require.Equal(t, []byte("/MY1/NAME/IS/:PARAM/*"), ToUpperBytes([]byte("/my1/name/is/:param/*")))
+	require.Equal(t, []byte("/MY2/NAME/IS/:PARAM/*"), ToUpperBytes([]byte("/my2/name/is/:param/*")))
+	require.Equal(t, []byte("/MY3/NAME/IS/:PARAM/*"), ToUpperBytes([]byte("/my3/name/is/:param/*")))
+	require.Equal(t, []byte("/MY4/NAME/IS/:PARAM/*"), ToUpperBytes([]byte("/my4/name/is/:param/*")))
 }
 
 func Benchmark_ToLowerBytes(b *testing.B) {
-    path := []byte(largeStr)
-    want := []byte(lowerStr)
-    var res []byte
+	path := []byte(largeStr)
+	want := []byte(lowerStr)
+	var res []byte
 
-    b.Run("velocity", func(b *testing.B) {
-        for n := 0; n < b.N; n++ {
-            res = ToLowerBytes(path)
-        }
-        require.True(b, bytes.Equal(want, res))
-    })
-    b.Run("default", func(b *testing.B) {
-        for n := 0; n < b.N; n++ {
-            res = bytes.ToLower(path)
-        }
-        require.True(b, bytes.Equal(want, res))
-    })
+	b.Run("velocity", func(b *testing.B) {
+		for n := 0; n < b.N; n++ {
+			res = ToLowerBytes(path)
+		}
+		require.True(b, bytes.Equal(want, res))
+	})
+	b.Run("default", func(b *testing.B) {
+		for n := 0; n < b.N; n++ {
+			res = bytes.ToLower(path)
+		}
+		require.True(b, bytes.Equal(want, res))
+	})
 }
 
 func Benchmark_ToUpperBytes(b *testing.B) {
-    path := []byte(largeStr)
-    want := []byte(upperStr)
-    var res []byte
-    b.Run("velocity", func(b *testing.B) {
-        for n := 0; n < b.N; n++ {
-            res = ToUpperBytes(path)
-        }
-        require.Equal(b, want, res)
-    })
-    b.Run("default", func(b *testing.B) {
-        for n := 0; n < b.N; n++ {
-            res = bytes.ToUpper(path)
-        }
-        require.Equal(b, want, res)
-    })
+	path := []byte(largeStr)
+	want := []byte(upperStr)
+	var res []byte
+	b.Run("velocity", func(b *testing.B) {
+		for n := 0; n < b.N; n++ {
+			res = ToUpperBytes(path)
+		}
+		require.Equal(b, want, res)
+	})
+	b.Run("default", func(b *testing.B) {
+		for n := 0; n < b.N; n++ {
+			res = bytes.ToUpper(path)
+		}
+		require.Equal(b, want, res)
+	})
 }

@@ -4,7 +4,7 @@ id: skip
 
 # Skip
 
-Skip middleware for [Velocity](https://go.khulnasoft.com/velocity) that skips a wrapped handler if a predicate is true.
+Skip middleware for [Velocity](https://github.com/khulnasoft/velocity) that skips a wrapped handler if a predicate is true.
 
 ## Signatures
 
@@ -18,8 +18,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/skip"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/skip"
 )
 ```
 

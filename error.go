@@ -9,7 +9,7 @@ import (
 
 // Wrap and return this for unreachable code if panicking is undesirable (i.e., in a handler).
 // Unexported because users will hopefully never need to see it.
-var errUnreachable = errors.New("velocity: unreachable code, please create an issue at go.khulnasoft.com/velocity")
+var errUnreachable = errors.New("velocity: unreachable code, please create an issue at github.com/khulnasoft/velocity")
 
 // General errors
 var (

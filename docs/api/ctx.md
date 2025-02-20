@@ -1631,7 +1631,7 @@ app.Get("/old", func(c velocity.Ctx) error {
 
 ## Route
 
-Returns the matched [Route](https://pkg.go.dev/go.khulnasoft.com/velocity?tab=doc#Route) struct.
+Returns the matched [Route](https://pkg.go.dev/github.com/khulnasoft/velocity?tab=doc#Route) struct.
 
 ```go title="Signature"
 func (c velocity.Ctx) Route() *Route
@@ -1921,7 +1921,7 @@ For sending multiple files from an embedded file system, [this functionality](..
 Sets the status code and the correct status message in the body if the response body is **empty**.
 
 :::tip
-You can find all used status codes and messages [here](https://go.khulnasoft.com/velocity/blob/dffab20bcdf4f3597d2c74633a7705a517d2c8c2/utils.go#L183-L244).
+You can find all used status codes and messages [here](https://github.com/khulnasoft/velocity/blob/dffab20bcdf4f3597d2c74633a7705a517d2c8c2/utils.go#L183-L244).
 :::
 
 ```go title="Signature"

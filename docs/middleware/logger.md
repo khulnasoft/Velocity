@@ -4,7 +4,7 @@ id: logger
 
 # Logger
 
-Logger middleware for [Velocity](https://go.khulnasoft.com/velocity) that logs HTTP request/response details.
+Logger middleware for [Velocity](https://github.com/khulnasoft/velocity) that logs HTTP request/response details.
 
 ## Signatures
 
@@ -18,8 +18,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/logger"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/logger"
 )
 ```
 
@@ -99,9 +99,9 @@ package main
 
 import (
     "github.com/khulnasoft/contrib/velocityzap/v2"
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/log"
-    "go.khulnasoft.com/velocity/middleware/logger"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/log"
+    "github.com/khulnasoft/velocity/middleware/logger"
 )
 
 func main() {

@@ -1,6 +1,6 @@
 # Retry Addon
 
-Retry addon for [Velocity](https://go.khulnasoft.com/velocity) designed to apply retry mechanism for unsuccessful network
+Retry addon for [Velocity](https://github.com/khulnasoft/velocity) designed to apply retry mechanism for unsuccessful network
 operations. This addon uses an exponential backoff algorithm with jitter. It calls the function multiple times and tries
 to make it successful. If all calls are failed, then, it returns an error. It adds a jitter at each retry step because adding
 a jitter is a way to break synchronization across the client and avoid collision.
@@ -28,7 +28,7 @@ Firstly, import the addon from Velocity,
 
 ```go
 import (
-    "go.khulnasoft.com/velocity/addon/retry"
+    "github.com/khulnasoft/velocity/addon/retry"
 )
 ```
 

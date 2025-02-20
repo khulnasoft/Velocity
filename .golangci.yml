@@ -57,7 +57,7 @@ linters-settings:
   gci:
     sections:
       - standard
-      - prefix(go.khulnasoft.com/velocity)
+      - prefix(github.com/khulnasoft/velocity)
       - default
       - blank
       - dot
@@ -87,7 +87,7 @@ linters-settings:
         # checkExported: false
 
   gofumpt:
-    module-path: go.khulnasoft.com/velocity
+    module-path: github.com/khulnasoft/velocity
     extra-rules: true
 
   gosec:
@@ -241,7 +241,7 @@ linters-settings:
 
   wrapcheck:
     ignorePackageGlobs:
-      - go.khulnasoft.com/velocity/*
+      - github.com/khulnasoft/velocity/*
       - github.com/valyala/fasthttp
 
 issues:

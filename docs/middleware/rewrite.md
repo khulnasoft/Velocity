@@ -25,8 +25,8 @@ func New(config ...Config) velocity.Handler
 package main
 
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/rewrite"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/rewrite"
 )
 
 func main() {

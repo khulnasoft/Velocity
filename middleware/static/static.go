@@ -9,9 +9,9 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
 )
 
 // New creates a new middleware handler.
