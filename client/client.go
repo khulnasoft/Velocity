@@ -16,7 +16,7 @@ import (
 	"github.com/fxamacker/cbor/v2"
 	"go.khulnasoft.com/velocity/v3/log"
 
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 
 	"github.com/valyala/fasthttp"
 	"github.com/valyala/fasthttp/fasthttpproxy"

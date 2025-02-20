@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 )
 
 func Test_manager_get(t *testing.T) {

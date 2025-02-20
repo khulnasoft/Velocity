@@ -13,7 +13,7 @@ import (
 	"sync/atomic"
 
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 )
 
 // Router defines all router handle interface, including app and group router.

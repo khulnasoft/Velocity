@@ -8,7 +8,7 @@ import (
 	"sync"
 
 	"github.com/valyala/bytebufferpool"
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 
 	"github.com/khulnasoft/schema"
 )

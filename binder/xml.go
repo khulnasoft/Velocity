@@ -3,7 +3,7 @@ package binder
 import (
 	"fmt"
 
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 )
 
 // XMLBinding is the XML binder for XML request body.

@@ -3,7 +3,7 @@ package logger
 import (
 	"io"
 
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 	"go.khulnasoft.com/velocity/v3"
 	velocitylog "go.khulnasoft.com/velocity/v3/log"
 )

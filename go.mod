@@ -2,7 +2,7 @@ module go.khulnasoft.com/velocity/v3
 
 go 1.23
 
-replace go.khulnasoft.com/velocity/lib/utils => ./lib/utils
+replace go.khulnasoft.com/velocity/utils => ./utils
 
 require (
 	github.com/google/uuid v1.6.0
@@ -13,7 +13,7 @@ require (
 	github.com/tinylib/msgp v1.2.5
 	github.com/valyala/bytebufferpool v1.0.0
 	github.com/valyala/fasthttp v1.59.0
-	go.khulnasoft.com/velocity/lib/utils v0.0.0-00010101000000-000000000000
+	go.khulnasoft.com/velocity/utils v0.0.0-00010101000000-000000000000
 	golang.org/x/crypto v0.33.0
 )
 

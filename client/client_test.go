@@ -17,7 +17,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/bytebufferpool"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 	"go.khulnasoft.com/velocity/v3"
 	"go.khulnasoft.com/velocity/v3/addon/retry"
 	"go.khulnasoft.com/velocity/v3/internal/tlstest"

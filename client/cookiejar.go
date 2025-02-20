@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 )
 
 var cookieJarPool = sync.Pool{

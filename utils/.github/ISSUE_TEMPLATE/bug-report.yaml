@@ -60,7 +60,7 @@ body:
       value: |
         package main
 
-        import "go.khulnasoft.com/velocity/lib/utils"
+        import "go.khulnasoft.com/velocity/utils"
 
         func main() {
           // Steps to reproduce

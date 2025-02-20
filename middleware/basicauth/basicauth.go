@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"strings"
 
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 	"go.khulnasoft.com/velocity/v3"
 )
 

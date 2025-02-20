@@ -25,7 +25,7 @@ import (
 
 	"github.com/valyala/bytebufferpool"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 )
 
 const (

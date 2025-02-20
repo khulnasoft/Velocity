@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/valyala/fasthttp/fasthttpadaptor"
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 	"go.khulnasoft.com/velocity/v3"
 )
 

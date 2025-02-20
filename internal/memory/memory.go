@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 )
 
 type Storage struct {

@@ -2,7 +2,7 @@ package binder
 
 import (
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 )
 
 // v is the header binder for header request body.

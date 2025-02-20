@@ -9,7 +9,7 @@ import (
 	"sync"
 
 	"github.com/valyala/bytebufferpool"
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 	"go.khulnasoft.com/velocity/v3/binder"
 )
 

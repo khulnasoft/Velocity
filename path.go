@@ -2,7 +2,7 @@
 // 📄 Github Repository: https://go.khulnasoft.com/velocity
 // 📌 API Documentation: https://docs.khulnasoft.com
 // ⚠️ This path parser was inspired by ucarion/urlpath (MIT License).
-// 💖 Maintained and modified for Velocity by @renewerner87
+// 💖 Maintained and modified for Velocity by @khulnasoft-bot
 
 package velocity
 
@@ -14,7 +14,7 @@ import (
 	"unicode"
 
 	"github.com/google/uuid"
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 )
 
 // routeParser holds the path segments and param names

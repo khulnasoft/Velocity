@@ -3,7 +3,7 @@ package cache
 import (
 	"time"
 
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 	"go.khulnasoft.com/velocity/v3"
 )
 

@@ -1,7 +1,7 @@
 package binder
 
 import (
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 )
 
 // CBORBinding is the CBOR binder for CBOR request body.

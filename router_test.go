@@ -16,7 +16,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 )
 
 var routesFixture routeJSON

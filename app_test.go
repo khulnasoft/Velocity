@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

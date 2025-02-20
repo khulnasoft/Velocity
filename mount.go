@@ -9,7 +9,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"go.khulnasoft.com/velocity/lib/utils"
+	"go.khulnasoft.com/velocity/utils"
 )
 
 // Put fields related to mounting.
