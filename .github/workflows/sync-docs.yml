@@ -30,4 +30,4 @@ jobs:
         env:
           EVENT: ${{ github.event_name }}
           TAG_NAME: ${{ github.ref_name }}
-          TOKEN: ${{ secrets.DOC_SYNC_TOKEN }}
+          TOKEN: ${{ secrets.ORG_REPO_TOKEN }}
