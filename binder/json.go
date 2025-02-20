@@ -1,7 +1,7 @@
 package binder
 
 import (
-	"go.khulnasoft.com/velocity/utils"
+	"github.com/khulnasoft/velocity/utils"
 )
 
 // JSONBinding is the JSON binder for JSON request body.

@@ -7,7 +7,7 @@ import (
 	"net/url"
 	"strings"
 
-	"go.khulnasoft.com/velocity"
+	"github.com/khulnasoft/velocity"
 )
 
 // The contextKey type is unexported to prevent collisions with context keys defined in

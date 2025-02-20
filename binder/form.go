@@ -1,8 +1,8 @@
 package binder
 
 import (
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/utils"
 )
 
 const MIMEMultipartForm string = "multipart/form-data"

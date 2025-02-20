@@ -3,7 +3,7 @@ package keyauth
 import (
 	"errors"
 
-	"go.khulnasoft.com/velocity"
+	"github.com/khulnasoft/velocity"
 )
 
 type KeyLookupFunc func(c velocity.Ctx) (string, error)

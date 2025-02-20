@@ -4,9 +4,9 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/middleware/skip"
 	"github.com/stretchr/testify/require"
-	"go.khulnasoft.com/velocity"
-	"go.khulnasoft.com/velocity/middleware/skip"
 )
 
 // go test -run Test_Skip

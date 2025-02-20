@@ -3,8 +3,8 @@ package expvar
 import (
 	"strings"
 
+	"github.com/khulnasoft/velocity"
 	"github.com/valyala/fasthttp/expvarhandler"
-	"go.khulnasoft.com/velocity"
 )
 
 // New creates a new middleware handler

@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/khulnasoft/velocity"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity"
 )
 
 func TestConfigDefault(t *testing.T) {

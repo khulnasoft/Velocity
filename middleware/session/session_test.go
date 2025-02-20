@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/google/uuid"
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/internal/storage/memory"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity"
-	"go.khulnasoft.com/velocity/internal/storage/memory"
 )
 
 // go test -run Test_Session
@@ -800,7 +800,7 @@ func Test_Session_Cookie(t *testing.T) {
 }
 
 // go test -run Test_Session_Cookie_In_Response
-// Regression: https://go.khulnasoft.com/velocity/pull/1191
+// Regression: https://github.com/khulnasoft/velocity/pull/1191
 func Test_Session_Cookie_In_Middleware_Chain(t *testing.T) {
 	t.Parallel()
 	store := NewStore()
@@ -832,7 +832,7 @@ func Test_Session_Cookie_In_Middleware_Chain(t *testing.T) {
 }
 
 // go test -run Test_Session_Deletes_Single_Key
-// Regression: https://go.khulnasoft.com/velocity/issues/1365
+// Regression: https://github.com/khulnasoft/velocity/issues/1365
 func Test_Session_Deletes_Single_Key(t *testing.T) {
 	t.Parallel()
 	store := NewStore()
@@ -943,7 +943,7 @@ func Test_Session_Reset(t *testing.T) {
 }
 
 // go test -run Test_Session_Regenerate
-// Regression: https://go.khulnasoft.com/velocity/issues/1395
+// Regression: https://github.com/khulnasoft/velocity/issues/1395
 func Test_Session_Regenerate(t *testing.T) {
 	t.Parallel()
 	// velocity instance

@@ -1,5 +1,5 @@
 // ⚡️ Velocity is an Express inspired web framework written in Go with ☕️
-// 📝 Github Repository: https://go.khulnasoft.com/velocity
+// 📝 Github Repository: https://github.com/khulnasoft/velocity
 // 📌 API Documentation: https://docs.khulnasoft.com
 
 package velocity
@@ -8,9 +8,9 @@ import (
 	"errors"
 	"sync"
 
+	"github.com/khulnasoft/velocity/binder"
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/valyala/bytebufferpool"
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/binder"
 )
 
 // Pool for redirection

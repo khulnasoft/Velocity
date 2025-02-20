@@ -32,10 +32,38 @@ format:
 markdown:
 	markdownlint-cli2 "**/*.md" "#vendor"
 
+.PHONY: markdown-fix
+markdown-fix:
+	# Add blank lines around fenced code blocks
+	sed -i '/^```/ { N; N; s/\n/\n\n/; }' template/**/*.md
+
+	# Add blank lines around headings
+	sed -i '/^####/ { N; N; s/\n/\n\n/; }' template/**/*.md
+
+	# Wrap bare URLs with angle brackets
+	sed -i 's|\(https\?://[^\s]*\)|<\1>|g' template/**/*.md
+
+	# Remove multiple blank lines (MD012)
+	sed -i '/^\s*$/ { N; N; s/\n\n/\n/; }' template/**/*.md
+
+	# Apply other fixes, like removing hard tabs if necessary
+	# Remove hard tabs and replace them with spaces (assuming 2 spaces per tab)
+	sed -i 's/\t/  /g' template/**/*.md
+	
+	# Remove trailing spaces (MD009)
+	sed -i 's/[[:space:]]*$//' template/**/*.md
+
+	# Ensure headings are surrounded by blank lines (MD022)
+	sed -i '/^###/ { N; N; s/\n/\n\n/; }' template/**/*.md
+
+	# Ensure fenced code blocks have a language specified (MD040)
+	sed -i '/^```/s/^```$/```bash/' template/**/*.md  # Assuming bash, adjust if needed
+
+
 ## lint: 🚨 Run lint checks
 .PHONY: lint
 lint:
-	go run github.com/golangci/golangci-lint/cmd/golangci-lint@v1.62.2 run ./...
+	go run github.com/golangci/golangci-lint/cmd/golangci-lint@v1.62.2 run fix --timeout 5m ./...
 
 ## test: 🚦 Execute all tests
 .PHONY: test

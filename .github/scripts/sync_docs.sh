@@ -8,7 +8,7 @@ AUTHOR_EMAIL="github-actions[bot]@users.noreply.github.com"
 AUTHOR_USERNAME="github-actions[bot]"
 VERSION_FILE="versions.json"
 REPO_DIR="core"
-COMMIT_URL="https://go.khulnasoft.com/velocity"
+COMMIT_URL="https://github.com/khulnasoft/velocity"
 DOCUSAURUS_COMMAND="npm run docusaurus -- docs:version"
 
 # Set commit author

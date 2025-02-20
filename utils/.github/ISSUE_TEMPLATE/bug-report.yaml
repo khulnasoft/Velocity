@@ -60,7 +60,7 @@ body:
       value: |
         package main
 
-        import "go.khulnasoft.com/velocity/utils"
+        import "github.com/khulnasoft/velocity/utils"
 
         func main() {
           // Steps to reproduce
@@ -71,7 +71,7 @@ body:
       label: "Checklist:"
       description: "By submitting this issue, you confirm that:"
       options:
-        - label: "I agree to follow Velocity's [Code of Conduct](https://go.khulnasoft.com/velocity/blob/master/.github/CODE_OF_CONDUCT.md)."
+        - label: "I agree to follow Velocity's [Code of Conduct](https://github.com/khulnasoft/velocity/blob/master/.github/CODE_OF_CONDUCT.md)."
           required: true
         - label: "I have checked for existing issues that describe my problem prior to opening this one."
           required: true

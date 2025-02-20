@@ -4,8 +4,8 @@ import (
 	"encoding/base64"
 	"strings"
 
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/utils"
 )
 
 // The contextKey type is unexported to prevent collisions with context keys defined in

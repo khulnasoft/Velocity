@@ -13,12 +13,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/internal/storage/memory"
+	"github.com/khulnasoft/velocity/middleware/etag"
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
-	"go.khulnasoft.com/velocity/internal/storage/memory"
-	"go.khulnasoft.com/velocity/middleware/etag"
 )
 
 func Test_Cache_CacheControl(t *testing.T) {

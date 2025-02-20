@@ -4,7 +4,7 @@ id: requestid
 
 # RequestID
 
-RequestID middleware for [Velocity](https://go.khulnasoft.com/velocity) that adds an identifier to the response.
+RequestID middleware for [Velocity](https://github.com/khulnasoft/velocity) that adds an identifier to the response.
 
 ## Signatures
 
@@ -19,8 +19,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/requestid"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/requestid"
 )
 ```
 

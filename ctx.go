@@ -1,5 +1,5 @@
 // ⚡️ Velocity is an Express inspired web framework written in Go with ☕️
-// 🤖 Github Repository: https://go.khulnasoft.com/velocity
+// 🤖 Github Repository: https://github.com/khulnasoft/velocity
 // 📌 API Documentation: https://docs.khulnasoft.com
 
 package velocity
@@ -23,9 +23,9 @@ import (
 	"text/template"
 	"time"
 
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/valyala/bytebufferpool"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/utils"
 )
 
 const (
@@ -1368,7 +1368,7 @@ func (c *DefaultCtx) GetRouteURL(routeName string, params Map) (string, error) {
 }
 
 // Render a template with data and sends a text/html response.
-// We support the following engines: https://github.com/khulnasoft/template
+// We support the following engines: https://github.com/khulnasoft/velocity/template
 func (c *DefaultCtx) Render(name string, bind any, layouts ...string) error {
 	// Get new buffer from pool
 	buf := bytebufferpool.Get()

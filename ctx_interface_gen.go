@@ -262,7 +262,7 @@ type Ctx interface {
 	// GetRouteURL generates URLs to named routes, with parameters. URLs are relative, for example: "/user/1831"
 	GetRouteURL(routeName string, params Map) (string, error)
 	// Render a template with data and sends a text/html response.
-	// We support the following engines: https://github.com/khulnasoft/template
+	// We support the following engines: https://github.com/khulnasoft/velocity/template
 	Render(name string, bind any, layouts ...string) error
 	renderExtensions(bind any)
 	// Route returns the matched Route struct.

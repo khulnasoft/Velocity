@@ -9,11 +9,11 @@ import (
 	"os"
 	"testing"
 
-	"go.khulnasoft.com/velocity/internal/tlstest"
+	"github.com/khulnasoft/velocity/internal/tlstest"
 
+	"github.com/khulnasoft/velocity"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go.khulnasoft.com/velocity"
 )
 
 func Test_Response_Status(t *testing.T) {

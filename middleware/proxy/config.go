@@ -4,8 +4,8 @@ import (
 	"crypto/tls"
 	"time"
 
+	"github.com/khulnasoft/velocity"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity"
 )
 
 // Config defines the config for middleware.

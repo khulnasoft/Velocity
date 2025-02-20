@@ -1,5 +1,5 @@
 // ⚡️ Velocity is an Express inspired web framework written in Go with ☕️
-// 🤖 Github Repository: https://go.khulnasoft.com/velocity
+// 🤖 Github Repository: https://github.com/khulnasoft/velocity
 // 📌 API Documentation: https://docs.khulnasoft.com
 
 package velocity
@@ -20,9 +20,9 @@ import (
 	"text/tabwriter"
 	"time"
 
+	"github.com/khulnasoft/velocity/log"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
-	"go.khulnasoft.com/velocity/log"
 	"golang.org/x/crypto/acme/autocert"
 )
 
@@ -457,8 +457,8 @@ func (app *App) startupMessage(addr string, isTLS bool, pids string, cfg ListenC
 // printRoutesMessage print all routes with method, path, name and handlers
 // in a format of table, like this:
 // method | path | name      | handlers
-// GET    | /    | routeName | go.khulnasoft.com/velocity.emptyHandler
-// HEAD   | /    |           | go.khulnasoft.com/velocity.emptyHandler
+// GET    | /    | routeName | github.com/khulnasoft/velocity.emptyHandler
+// HEAD   | /    |           | github.com/khulnasoft/velocity.emptyHandler
 func (app *App) printRoutesMessage() {
 	// ignore child processes
 	if IsChild() {

@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/khulnasoft/velocity"
 	"github.com/stretchr/testify/require"
-	"go.khulnasoft.com/velocity"
 )
 
 var (

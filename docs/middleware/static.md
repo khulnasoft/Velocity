@@ -18,12 +18,12 @@ func New(root string, cfg ...Config) velocity.Handler
 
 ## Examples
 
-Import the middleware package that is part of the [Velocity](https://go.khulnasoft.com/velocity) web framework
+Import the middleware package that is part of the [Velocity](https://github.com/khulnasoft/velocity) web framework
 
 ```go
 import(
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/static"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/static"
 )
 ```
 

@@ -29,7 +29,7 @@ The following samples will assist you to become as comfortable as possible with 
 
 ```go
 // Import Velocity Client into your code and refer it as `client`.
-import "go.khulnasoft.com/velocity/client"
+import "github.com/khulnasoft/velocity/client"
 ```
 
 ### Simple GET

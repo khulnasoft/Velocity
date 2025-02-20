@@ -1,19 +1,19 @@
 # Velocity Utils
 
 ![Release](https://img.shields.io/github/release/khulnasoft/utils.svg)
-![Test](https://github.com/khulnasoft/utils/workflows/Test/badge.svg)
+![Test](https://github.com/khulnasoft/velocity/utils/workflows/Test/badge.svg)
 ![Codecov](https://img.shields.io/codecov/c/github/khulnasoft/utils?token=3Cr92CwaPQ&style=flat-square&logo=codecov&label=codecov)
-![Linter](https://github.com/khulnasoft/utils/workflows/Linter/badge.svg)
+![Linter](https://github.com/khulnasoft/velocity/utils/workflows/Linter/badge.svg)
 [![Discord](https://img.shields.io/badge/discord-join%20channel-7289DA)](https://khulnasoft.com/discord)
 
-A collection of common functions but with better performance, less allocations and less dependencies created for [Velocity](https://go.khulnasoft.com/velocity).
+A collection of common functions but with better performance, less allocations and less dependencies created for [Velocity](https://github.com/khulnasoft/velocity).
 
 ## Benchmarks
 
 Environment:
 goos: darwin
 goarch: amd64
-pkg: github.com/khulnasoft/utils
+pkg: github.com/khulnasoft/velocity/utils
 cpu: Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz
 
 ```go

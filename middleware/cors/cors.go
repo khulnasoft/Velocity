@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"strings"
 
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
-	"go.khulnasoft.com/velocity/log"
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/log"
+	"github.com/khulnasoft/velocity/utils"
 )
 
 // New creates a new middleware handler

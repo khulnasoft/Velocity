@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
-	"go.khulnasoft.com/velocity/log"
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/log"
+	"github.com/khulnasoft/velocity/utils"
 )
 
 // Inspired by https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header-02

@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
 
-	"go.khulnasoft.com/velocity"
+	"github.com/khulnasoft/velocity"
 )
 
 // go test -run Test_Middleware_Favicon

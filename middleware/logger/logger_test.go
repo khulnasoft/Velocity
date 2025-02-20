@@ -17,12 +17,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/khulnasoft/velocity"
+	velocitylog "github.com/khulnasoft/velocity/log"
+	"github.com/khulnasoft/velocity/middleware/requestid"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/bytebufferpool"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity"
-	velocitylog "go.khulnasoft.com/velocity/log"
-	"go.khulnasoft.com/velocity/middleware/requestid"
 )
 
 func benchmarkSetup(b *testing.B, app *velocity.App, uri string) {

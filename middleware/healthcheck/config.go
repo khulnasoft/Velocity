@@ -1,7 +1,7 @@
 package healthcheck
 
 import (
-	"go.khulnasoft.com/velocity"
+	"github.com/khulnasoft/velocity"
 )
 
 // Config defines the configuration options for the healthcheck middleware.

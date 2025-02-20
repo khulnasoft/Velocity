@@ -4,7 +4,7 @@ id: timeout
 
 # Timeout
 
-There exist two distinct implementations of timeout middleware [Velocity](https://go.khulnasoft.com/velocity).
+There exist two distinct implementations of timeout middleware [Velocity](https://github.com/khulnasoft/velocity).
 
 ## New
 
@@ -26,8 +26,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/timeout"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/timeout"
 )
 ```
 

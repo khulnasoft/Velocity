@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
+	"github.com/khulnasoft/velocity"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity"
 )
 
 // go test -run Test_Store_getSessionID
@@ -65,10 +65,10 @@ func Test_Store_getSessionID(t *testing.T) {
 }
 
 // go test -run Test_Store_Get
-// Regression: https://go.khulnasoft.com/velocity/issues/1408
-// Regression: https://go.khulnasoft.com/velocity/security/advisories/GHSA-98j2-3j3p-fw2v
+// Regression: https://github.com/khulnasoft/velocity/issues/1408
+// Regression: https://github.com/khulnasoft/velocity/security/advisories/GHSA-98j2-3j3p-fw2v
 func Test_Store_Get(t *testing.T) {
-	// Regression: https://go.khulnasoft.com/velocity/security/advisories/GHSA-98j2-3j3p-fw2v
+	// Regression: https://github.com/khulnasoft/velocity/security/advisories/GHSA-98j2-3j3p-fw2v
 	t.Parallel()
 	unexpectedID := "test-session-id"
 	// velocity instance

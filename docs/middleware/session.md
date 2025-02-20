@@ -45,7 +45,7 @@ As of v3, we recommend using the middleware handler for session management. Howe
 
   - **Absolute Timeout**: The `AbsoluteTimeout` field has been added. If you need to set an absolute session timeout, you can use this field to define the duration. The session will expire after the specified duration, regardless of activity.
 
-For more details about Velocity v3, see [What’s New](https://go.khulnasoft.com/velocity/blob/main/docs/whats_new.md).
+For more details about Velocity v3, see [What’s New](https://github.com/khulnasoft/velocity/blob/main/docs/whats_new.md).
 
 ### Migrating v2 to v3 Example (Legacy Approach)
 
@@ -268,9 +268,9 @@ The `GetByID` method retrieves a session from storage using its session ID. Unli
 package main
 
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/csrf"
-    "go.khulnasoft.com/velocity/middleware/session"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/csrf"
+    "github.com/khulnasoft/velocity/middleware/session"
 )
 
 func main() {
@@ -307,10 +307,10 @@ func main() {
 package main
 
 import (
-    "go.khulnasoft.com/velocity"
+    "github.com/khulnasoft/velocity"
     "github.com/khulnasoft/storage/sqlite3"
-    "go.khulnasoft.com/velocity/middleware/csrf"
-    "go.khulnasoft.com/velocity/middleware/session"
+    "github.com/khulnasoft/velocity/middleware/csrf"
+    "github.com/khulnasoft/velocity/middleware/session"
 )
 
 func main() {
@@ -336,9 +336,9 @@ func main() {
 package main
 
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/csrf"
-    "go.khulnasoft.com/velocity/middleware/session"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/csrf"
+    "github.com/khulnasoft/velocity/middleware/session"
 )
 
 func main() {
@@ -421,8 +421,8 @@ To support other types in session data, you can register custom types. Here is a
 package main
 
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/session"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/session"
 )
 
 type User struct {

@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 
-	"go.khulnasoft.com/velocity/utils"
+	"github.com/khulnasoft/velocity/utils"
 )
 
 // buildLogFuncChain analyzes the template and creates slices with the functions for execution and

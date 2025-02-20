@@ -13,14 +13,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/addon/retry"
+	"github.com/khulnasoft/velocity/internal/tlstest"
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/bytebufferpool"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
-	"go.khulnasoft.com/velocity/addon/retry"
-	"go.khulnasoft.com/velocity/internal/tlstest"
 )
 
 func startTestServerWithPort(t *testing.T, beforeStarting func(app *velocity.App)) (*velocity.App, string) {

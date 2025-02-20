@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/valyala/bytebufferpool"
-	"go.khulnasoft.com/velocity/utils"
 
 	"github.com/khulnasoft/schema"
 )

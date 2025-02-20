@@ -4,7 +4,7 @@ id: envvar
 
 # EnvVar
 
-EnvVar middleware for [Velocity](https://go.khulnasoft.com/velocity) that can be used to expose environment variables with various options.
+EnvVar middleware for [Velocity](https://github.com/khulnasoft/velocity) that can be used to expose environment variables with various options.
 
 ## Signatures
 
@@ -18,8 +18,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/envvar"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/envvar"
 )
 ```
 

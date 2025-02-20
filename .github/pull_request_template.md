@@ -41,4 +41,4 @@ Before you submit your pull request, please make sure you meet these requirement
 
 ## Commit formatting
 
-Please use emojis in commit messages for an easy way to identify the purpose or intention of a commit. Check out the emoji cheatsheet here: [CONTRIBUTING.md](https://go.khulnasoft.com/velocity/blob/master/.github/CONTRIBUTING.md#pull-requests-or-commits)
+Please use emojis in commit messages for an easy way to identify the purpose or intention of a commit. Check out the emoji cheatsheet here: [CONTRIBUTING.md](https://github.com/khulnasoft/velocity/blob/master/.github/CONTRIBUTING.md#pull-requests-or-commits)

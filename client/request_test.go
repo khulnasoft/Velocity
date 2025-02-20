@@ -15,11 +15,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/khulnasoft/velocity"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
 	"github.com/valyala/fasthttp/fasthttputil"
-	"go.khulnasoft.com/velocity"
 )
 
 func Test_Request_Method(t *testing.T) {

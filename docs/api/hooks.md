@@ -61,7 +61,7 @@ package main
 import (
     "fmt"
 
-    "go.khulnasoft.com/velocity"
+    "github.com/khulnasoft/velocity"
 )
 
 func main() {
@@ -138,8 +138,8 @@ import (
     "log"
     "os"
 
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/log"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/log"
 )
 
 func main() {
@@ -199,7 +199,7 @@ package main
 import (
     "fmt"
 
-    "go.khulnasoft.com/velocity"
+    "github.com/khulnasoft/velocity"
 )
 
 func main() {

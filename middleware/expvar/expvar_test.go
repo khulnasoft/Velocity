@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/khulnasoft/velocity"
 	"github.com/stretchr/testify/require"
-	"go.khulnasoft.com/velocity"
 )
 
 func Test_Non_Expvar_Path(t *testing.T) {

@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"sync"
 
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/utils"
 )
 
 // Response represents the result of a request. It provides access to the response data.

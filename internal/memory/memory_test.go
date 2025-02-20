@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/stretchr/testify/require"
-	"go.khulnasoft.com/velocity/utils"
 )
 
 // go test -run Test_Memory -v -race

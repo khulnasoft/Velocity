@@ -4,7 +4,7 @@ id: pprof
 
 # Pprof
 
-Pprof middleware for [Velocity](https://go.khulnasoft.com/velocity) that serves via its HTTP server runtime profiling data in the format expected by the pprof visualization tool. The package is typically only imported for the side effect of registering its HTTP handlers. The handled paths all begin with /debug/pprof/.
+Pprof middleware for [Velocity](https://github.com/khulnasoft/velocity) that serves via its HTTP server runtime profiling data in the format expected by the pprof visualization tool. The package is typically only imported for the side effect of registering its HTTP handlers. The handled paths all begin with /debug/pprof/.
 
 ## Signatures
 
@@ -18,8 +18,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/pprof"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/pprof"
 )
 ```
 

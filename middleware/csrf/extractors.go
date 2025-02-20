@@ -3,7 +3,7 @@ package csrf
 import (
 	"errors"
 
-	"go.khulnasoft.com/velocity"
+	"github.com/khulnasoft/velocity"
 )
 
 var (

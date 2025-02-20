@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/khulnasoft/velocity"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity"
 )
 
 func Test_Session_Middleware(t *testing.T) {

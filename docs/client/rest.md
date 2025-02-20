@@ -27,7 +27,7 @@ import (
     "fmt"
     "time"
 
-    "go.khulnasoft.com/velocity/client"
+    "github.com/khulnasoft/velocity/client"
 )
 
 func main() {

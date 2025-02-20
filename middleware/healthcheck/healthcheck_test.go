@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"testing"
 
+	"github.com/khulnasoft/velocity"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity"
 )
 
 func shouldGiveStatus(t *testing.T, app *velocity.App, path string, expectedStatus int) {

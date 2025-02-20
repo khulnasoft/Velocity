@@ -4,9 +4,9 @@ import (
 	"strings"
 	"time"
 
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
-	"go.khulnasoft.com/velocity/log"
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/log"
+	"github.com/khulnasoft/velocity/utils"
 )
 
 // Config defines the configuration for the session middleware.

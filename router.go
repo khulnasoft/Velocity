@@ -1,5 +1,5 @@
 // ⚡️ Velocity is an Express inspired web framework written in Go with ☕️
-// 🤖 Github Repository: https://go.khulnasoft.com/velocity
+// 🤖 Github Repository: https://github.com/khulnasoft/velocity
 // 📌 API Documentation: https://docs.khulnasoft.com
 
 package velocity
@@ -12,8 +12,8 @@ import (
 	"sort"
 	"sync/atomic"
 
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/utils"
 )
 
 // Router defines all router handle interface, including app and group router.
@@ -435,7 +435,7 @@ func (app *App) addRoute(method string, route *Route, isMounted ...bool) {
 // is only done in the startupProcess of the app, this method does not makes sure that the
 // routeTree is being safely changed, as it would add a great deal of overhead in the request.
 // Latest benchmark results showed a degradation from 82.79 ns/op to 94.48 ns/op and can be found in:
-// https://go.khulnasoft.com/velocity/issues/2769#issuecomment-2227385283
+// https://github.com/khulnasoft/velocity/issues/2769#issuecomment-2227385283
 func (app *App) RebuildTree() *App {
 	app.mutex.Lock()
 	defer app.mutex.Unlock()

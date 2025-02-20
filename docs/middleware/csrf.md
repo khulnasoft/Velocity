@@ -4,7 +4,7 @@ id: csrf
 
 # CSRF
 
-The CSRF middleware for [Velocity](https://go.khulnasoft.com/velocity) provides protection against [Cross-Site Request Forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery) (CSRF) attacks. Requests made using methods other than those defined as 'safe' by [RFC9110#section-9.2.1](https://datatracker.ietf.org/doc/html/rfc9110.html#section-9.2.1) (GET, HEAD, OPTIONS, and TRACE) are validated using tokens. If a potential attack is detected, the middleware will return a default 403 Forbidden error.
+The CSRF middleware for [Velocity](https://github.com/khulnasoft/velocity) provides protection against [Cross-Site Request Forgery](https://en.wikipedia.org/wiki/Cross-site_request_forgery) (CSRF) attacks. Requests made using methods other than those defined as 'safe' by [RFC9110#section-9.2.1](https://datatracker.ietf.org/doc/html/rfc9110.html#section-9.2.1) (GET, HEAD, OPTIONS, and TRACE) are validated using tokens. If a potential attack is detected, the middleware will return a default 403 Forbidden error.
 
 This middleware offers two [Token Validation Patterns](#token-validation-patterns): the [Double Submit Cookie Pattern (default)](#double-submit-cookie-pattern-default), and the [Synchronizer Token Pattern (with Session)](#synchronizer-token-pattern-with-session).
 
@@ -18,8 +18,8 @@ Import the middleware package that is part of the Velocity web framework:
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/csrf"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/csrf"
 )
 ```
 

@@ -4,7 +4,7 @@ id: cors
 
 # CORS
 
-CORS (Cross-Origin Resource Sharing) is a middleware for [Velocity](https://go.khulnasoft.com/velocity) that allows servers to specify who can access its resources and how. It's not a security feature, but a way to relax the security model of web browsers for cross-origin requests. You can learn more about CORS on [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
+CORS (Cross-Origin Resource Sharing) is a middleware for [Velocity](https://github.com/khulnasoft/velocity) that allows servers to specify who can access its resources and how. It's not a security feature, but a way to relax the security model of web browsers for cross-origin requests. You can learn more about CORS on [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).
 
 This middleware works by adding CORS headers to responses from your Velocity application. These headers specify which origins, methods, and headers are allowed for cross-origin requests. It also handles preflight requests, which are a CORS mechanism to check if the actual request is safe to send.
 
@@ -26,8 +26,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/cors"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/cors"
 )
 ```
 

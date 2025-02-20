@@ -1,29 +1,29 @@
 // ⚡️ Velocity is an Express inspired web framework written in Go with ☕️
-// 🤖 Github Repository: https://go.khulnasoft.com/velocity
+// 🤖 Github Repository: https://github.com/khulnasoft/velocity
 // 📌 API Documentation: https://docs.khulnasoft.com
 
 package utils
 
 // ToLower converts ascii string to lower-case
 func ToLower(b string) string {
-    res := make([]byte, len(b))
-    copy(res, b)
-    for i := 0; i < len(res); i++ {
-        res[i] = toLowerTable[res[i]]
-    }
+	res := make([]byte, len(b))
+	copy(res, b)
+	for i := 0; i < len(res); i++ {
+		res[i] = toLowerTable[res[i]]
+	}
 
-    return UnsafeString(res)
+	return UnsafeString(res)
 }
 
 // ToUpper converts ascii string to upper-case
 func ToUpper(b string) string {
-    res := make([]byte, len(b))
-    copy(res, b)
-    for i := 0; i < len(res); i++ {
-        res[i] = toUpperTable[res[i]]
-    }
+	res := make([]byte, len(b))
+	copy(res, b)
+	for i := 0; i < len(res); i++ {
+		res[i] = toUpperTable[res[i]]
+	}
 
-    return UnsafeString(res)
+	return UnsafeString(res)
 }
 
 // IfToLower returns an lowercase version of the input ASCII string.
@@ -34,19 +34,19 @@ func ToUpper(b string) string {
 //
 // In the case of mixed-case or uppercase strings, this function will be slightly slower than `ToLower`.
 func IfToLower(s string) string {
-    hasUpper := false
-    for i := 0; i < len(s); i++ {
-        c := s[i]
-        if toLowerTable[c] != c {
-            hasUpper = true
-            break
-        }
-    }
+	hasUpper := false
+	for i := 0; i < len(s); i++ {
+		c := s[i]
+		if toLowerTable[c] != c {
+			hasUpper = true
+			break
+		}
+	}
 
-    if !hasUpper {
-        return s
-    }
-    return ToLower(s)
+	if !hasUpper {
+		return s
+	}
+	return ToLower(s)
 }
 
 // IfToUpper returns an uppercase version of the input ASCII string.
@@ -57,17 +57,17 @@ func IfToLower(s string) string {
 //
 // In the case of mixed-case or lowercase strings, this function will be slightly slower than `ToUpper`.
 func IfToUpper(s string) string {
-    hasLower := false
-    for i := 0; i < len(s); i++ {
-        c := s[i]
-        if toUpperTable[c] != c {
-            hasLower = true
-            break
-        }
-    }
+	hasLower := false
+	for i := 0; i < len(s); i++ {
+		c := s[i]
+		if toUpperTable[c] != c {
+			hasLower = true
+			break
+		}
+	}
 
-    if !hasLower {
-        return s
-    }
-    return ToUpper(s)
+	if !hasLower {
+		return s
+	}
+	return ToUpper(s)
 }

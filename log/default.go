@@ -7,8 +7,8 @@ import (
 	"log"
 	"os"
 
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/valyala/bytebufferpool"
-	"go.khulnasoft.com/velocity/utils"
 )
 
 var _ AllLogger = (*defaultLogger)(nil)

@@ -4,7 +4,7 @@ id: favicon
 
 # Favicon
 
-Favicon middleware for [Velocity](https://go.khulnasoft.com/velocity) that ignores favicon requests or caches a provided icon in memory to improve performance by skipping disk access. User agents request favicon.ico frequently and indiscriminately, so you may wish to exclude these requests from your logs by using this middleware before your logger middleware.
+Favicon middleware for [Velocity](https://github.com/khulnasoft/velocity) that ignores favicon requests or caches a provided icon in memory to improve performance by skipping disk access. User agents request favicon.ico frequently and indiscriminately, so you may wish to exclude these requests from your logs by using this middleware before your logger middleware.
 
 :::note
 This middleware is exclusively for serving the default, implicit favicon, which is GET /favicon.ico or [custom favicon URL](#config).
@@ -22,8 +22,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/favicon"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/favicon"
 )
 ```
 

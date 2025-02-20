@@ -36,8 +36,8 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/recover"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/recover"
 )
 
 func main() {
@@ -67,7 +67,7 @@ app.Get("/", func(c velocity.Ctx) error {
 
 ## Default Error Handler
 
-Velocity provides an error handler by default. For a standard error, the response is sent as **500 Internal Server Error**. If the error is of type [velocity.Error](https://godoc.org/go.khulnasoft.com/velocity#Error), the response is sent with the provided status code and message.
+Velocity provides an error handler by default. For a standard error, the response is sent as **500 Internal Server Error**. If the error is of type [velocity.Error](https://godoc.org/github.com/khulnasoft/velocity#Error), the response is sent with the provided status code and message.
 
 ```go title="Example"
 // Default error handler

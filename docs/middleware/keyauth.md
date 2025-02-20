@@ -21,8 +21,8 @@ package main
 import (
     "crypto/sha256"
     "crypto/subtle"
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/keyauth"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/keyauth"
 )
 
 var (
@@ -82,8 +82,8 @@ package main
 import (
     "crypto/sha256"
     "crypto/subtle"
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/keyauth"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/keyauth"
     "regexp"
     "strings"
 )
@@ -164,8 +164,8 @@ package main
 import (
     "crypto/sha256"
     "crypto/subtle"
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/keyauth"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/keyauth"
 )
 
 const (

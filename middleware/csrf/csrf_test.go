@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/middleware/session"
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
-	"go.khulnasoft.com/velocity/middleware/session"
 )
 
 func Test_CSRF(t *testing.T) {
@@ -1330,7 +1330,7 @@ func Test_CSRF_Cookie_Injection_Exploit(t *testing.T) {
 	require.Equal(t, 403, ctx.Response.StatusCode(), "CSRF exploit successful")
 }
 
-// TODO: use this test case and make the unsafe header value bug from https://go.khulnasoft.com/velocity/issues/2045 reproducible and permanently fixed/tested by this testcase
+// TODO: use this test case and make the unsafe header value bug from https://github.com/khulnasoft/velocity/issues/2045 reproducible and permanently fixed/tested by this testcase
 // func Test_CSRF_UnsafeHeaderValue(t *testing.T) {
 //  t.Parallel()
 // 	app := velocity.New()

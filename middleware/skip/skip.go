@@ -1,7 +1,7 @@
 package skip
 
 import (
-	"go.khulnasoft.com/velocity"
+	"github.com/khulnasoft/velocity"
 )
 
 // New creates a middleware handler which skips the wrapped handler

@@ -4,7 +4,7 @@ id: etag
 
 # ETag
 
-ETag middleware for [Velocity](https://go.khulnasoft.com/velocity) that lets caches be more efficient and save bandwidth, as a web server does not need to resend a full response if the content has not changed.
+ETag middleware for [Velocity](https://github.com/khulnasoft/velocity) that lets caches be more efficient and save bandwidth, as a web server does not need to resend a full response if the content has not changed.
 
 ## Signatures
 
@@ -18,8 +18,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/etag"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/etag"
 )
 ```
 

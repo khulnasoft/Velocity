@@ -1,7 +1,7 @@
 package healthcheck
 
 import (
-	"go.khulnasoft.com/velocity"
+	"github.com/khulnasoft/velocity"
 )
 
 // HealthChecker defines a function to check liveness or readiness of the application

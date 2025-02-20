@@ -1,5 +1,5 @@
 // ⚡️ Velocity is an Express inspired web framework written in Go with ☕️
-// 🤖 Github Repository: https://go.khulnasoft.com/velocity
+// 🤖 Github Repository: https://github.com/khulnasoft/velocity
 // 📌 API Documentation: https://docs.khulnasoft.com
 
 // Package velocity is an Express inspired web framework built on top of Fasthttp,
@@ -26,9 +26,9 @@ import (
 	"time"
 
 	"github.com/fxamacker/cbor/v2"
+	"github.com/khulnasoft/velocity/log"
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/log"
 )
 
 // Version of current velocity package

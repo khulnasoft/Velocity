@@ -1,5 +1,5 @@
 // ⚡️ Velocity is an Express inspired web framework written in Go with ☕️
-// 🤖 Github Repository: https://go.khulnasoft.com/velocity
+// 🤖 Github Repository: https://github.com/khulnasoft/velocity
 // 📌 API Documentation: https://docs.khulnasoft.com
 
 package velocity
@@ -29,11 +29,11 @@ import (
 	"text/template"
 	"time"
 
+	"github.com/khulnasoft/velocity/internal/storage/memory"
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/bytebufferpool"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/internal/storage/memory"
 )
 
 const epsilon = 0.001

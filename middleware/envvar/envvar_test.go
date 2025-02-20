@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/khulnasoft/velocity"
 	"github.com/stretchr/testify/require"
-	"go.khulnasoft.com/velocity"
 )
 
 func Test_EnvVarStructWithExportVarsExcludeVars(t *testing.T) {

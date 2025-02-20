@@ -17,7 +17,7 @@ First, [download](https://go.dev/dl/) and install Go. Version `1.23` or higher i
 Installation is done using the [`go get`](https://pkg.go.dev/cmd/go/#hdr-Add_dependencies_to_current_module_and_install_them) command:
 
 ```bash
-go get go.khulnasoft.com/velocity
+go get github.com/khulnasoft/velocity
 ```
 
 ### Zero Allocation
@@ -50,7 +50,7 @@ func handler(c velocity.Ctx) error {
 }
 ```
 
-We created a custom `CopyString` function that performs the above and is available under [khulnasoft/utils](https://github.com/khulnasoft/utils).
+We created a custom `CopyString` function that performs the above and is available under [khulnasoft/utils](https://github.com/khulnasoft/velocity/utils).
 
 ```go
 app.Get("/:foo", func(c velocity.Ctx) error {
@@ -69,7 +69,7 @@ app := velocity.New(velocity.Config{
 })
 ```
 
-For more information, please refer to [#426](https://go.khulnasoft.com/velocity/issues/426), [#185](https://go.khulnasoft.com/velocity/issues/185), and [#3012](https://go.khulnasoft.com/velocity/issues/3012).
+For more information, please refer to [#426](https://github.com/khulnasoft/velocity/issues/426), [#185](https://github.com/khulnasoft/velocity/issues/185), and [#3012](https://github.com/khulnasoft/velocity/issues/3012).
 
 ### Hello, World
 
@@ -78,7 +78,7 @@ Below is the most straightforward **Velocity** application you can create:
 ```go
 package main
 
-import "go.khulnasoft.com/velocity"
+import "github.com/khulnasoft/velocity"
 
 func main() {
     app := velocity.New()
@@ -171,8 +171,8 @@ Use the following code to serve files in a directory named `./public`:
 package main
 
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/static"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/static"
 )
 
 func main() {

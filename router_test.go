@@ -1,5 +1,5 @@
 // ⚡️ Velocity is an Express inspired web framework written in Go with ☕️
-// 📃 Github Repository: https://go.khulnasoft.com/velocity
+// 📃 Github Repository: https://github.com/khulnasoft/velocity
 // 📌 API Documentation: https://docs.khulnasoft.com
 
 package velocity
@@ -14,9 +14,9 @@ import (
 	"os"
 	"testing"
 
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/utils"
 )
 
 var routesFixture routeJSON
@@ -591,7 +591,7 @@ func Benchmark_Router_Next_Default(b *testing.B) {
 	}
 }
 
-// go test -benchmem -run=^$ -bench ^Benchmark_Router_Next_Default_Parallel$ go.khulnasoft.com/velocity -count=1
+// go test -benchmem -run=^$ -bench ^Benchmark_Router_Next_Default_Parallel$ github.com/khulnasoft/velocity -count=1
 func Benchmark_Router_Next_Default_Parallel(b *testing.B) {
 	app := New()
 	app.Get("/", func(_ Ctx) error {

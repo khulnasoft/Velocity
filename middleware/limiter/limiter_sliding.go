@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/utils"
 )
 
 type SlidingWindow struct{}

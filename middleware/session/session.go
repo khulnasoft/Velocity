@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/khulnasoft/velocity"
+	"github.com/khulnasoft/velocity/utils"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity"
 )
 
 // Session represents a user session.

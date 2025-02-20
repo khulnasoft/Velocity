@@ -4,7 +4,7 @@ id: proxy
 
 # Proxy
 
-Proxy middleware for [Velocity](https://go.khulnasoft.com/velocity) that allows you to proxy requests to multiple servers.
+Proxy middleware for [Velocity](https://github.com/khulnasoft/velocity) that allows you to proxy requests to multiple servers.
 
 ## Signatures
 
@@ -35,8 +35,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity"
-    "go.khulnasoft.com/velocity/middleware/proxy"
+    "github.com/khulnasoft/velocity"
+    "github.com/khulnasoft/velocity/middleware/proxy"
 )
 ```
 
