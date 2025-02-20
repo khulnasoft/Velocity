@@ -110,8 +110,8 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/middleware/logger"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/logger"
 )
 
 type Host struct {

@@ -15,7 +15,7 @@ import (
 
 	"github.com/valyala/fasthttp"
 	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/v3"
+	"go.khulnasoft.com/velocity"
 )
 
 // WithStruct is implemented by types that allow data to be stored from a struct via reflection.

@@ -15,7 +15,7 @@ import (
 
 	"github.com/valyala/fasthttp/reuseport"
 
-	"go.khulnasoft.com/velocity/v3/log"
+	"go.khulnasoft.com/velocity/log"
 )
 
 const (

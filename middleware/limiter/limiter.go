@@ -1,7 +1,7 @@
 package limiter
 
 import (
-	"go.khulnasoft.com/velocity/v3"
+	"go.khulnasoft.com/velocity"
 )
 
 const (

@@ -28,8 +28,8 @@ To use the Encrypt Cookie middleware, first, import the middleware package as pa
 
 ```go
 import (
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/middleware/encryptcookie"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/encryptcookie"
 )
 ```
 

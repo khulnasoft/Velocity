@@ -9,8 +9,8 @@ import (
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/v3"
-	"go.khulnasoft.com/velocity/v3/internal/storage/memory"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/internal/storage/memory"
 )
 
 // go test -run Test_Session

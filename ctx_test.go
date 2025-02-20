@@ -33,7 +33,7 @@ import (
 	"github.com/valyala/bytebufferpool"
 	"github.com/valyala/fasthttp"
 	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/v3/internal/storage/memory"
+	"go.khulnasoft.com/velocity/internal/storage/memory"
 )
 
 const epsilon = 0.001

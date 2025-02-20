@@ -97,7 +97,7 @@ package main
 
 import (
     "log"
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
 )
 
 type CustomCtx struct {
@@ -558,7 +558,7 @@ package main
 
 import (
     "strconv"
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
 )
 
 func main() {
@@ -593,7 +593,7 @@ curl "http://localhost:3000/convert?value=abc"
 package main
 
 import (
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
 )
 
 func main() {
@@ -636,7 +636,7 @@ curl "http://localhost:3000/user/5"
 package main
 
 import (
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
 )
 
 func main() {
@@ -668,7 +668,7 @@ curl "http://localhost:3000/params/abc"
 package main
 
 import (
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
 )
 
 func main() {
@@ -701,7 +701,7 @@ curl "http://localhost:3000/query?age=abc"
 package main
 
 import (
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
 )
 
 func main() {
@@ -820,9 +820,9 @@ package main
 
 import (
     "github.com/khulnasoft/contrib/velocityzap/v2"
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/log"
-    "go.khulnasoft.com/velocity/v3/middleware/logger"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/log"
+    "go.khulnasoft.com/velocity/middleware/logger"
 )
 
 func main() {
@@ -1040,7 +1040,7 @@ In Velocity v3, the `Ctx` parameter in handlers is now an interface, which means
 package main
 
 import (
-    "go.khulnasoft.com/velocity/v2"
+    "go.khulnasoft.com/velocity"
 )
 
 func main() {
@@ -1061,7 +1061,7 @@ func main() {
 package main
 
 import (
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
 )
 
 func main() {
@@ -1293,7 +1293,7 @@ Update the import path to the new client package.
 <summary>Before</summary>
 
 ```go
-import "go.khulnasoft.com/velocity/v2/client"
+import "go.khulnasoft.com/velocity/client"
 ```
 
 </details>
@@ -1302,7 +1302,7 @@ import "go.khulnasoft.com/velocity/v2/client"
 <summary>After</summary>
 
 ```go
-import "go.khulnasoft.com/velocity/v3/client"
+import "go.khulnasoft.com/velocity/client"
 ```
 
 </details>
@@ -1436,7 +1436,7 @@ Since v3 the Monitor middleware has been moved to the [Contrib package](https://
 
 ```go
 // Before
-import "go.khulnasoft.com/velocity/v2/middleware/monitor"
+import "go.khulnasoft.com/velocity/middleware/monitor"
 
 app.Use("/metrics", monitor.New())
 ```

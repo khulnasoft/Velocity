@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/v3"
-	"go.khulnasoft.com/velocity/v3/log"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/log"
 )
 
 // New creates a new middleware handler

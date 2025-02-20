@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/v3"
+	"go.khulnasoft.com/velocity"
 )
 
 type SlidingWindow struct{}

@@ -88,7 +88,7 @@ log.Fatalw("", "fruit", "fish")
 For projects that require a simple, global logging function to print messages at any time, Velocity provides a global log.
 
 ```go
-import "go.khulnasoft.com/velocity/v3/log"
+import "go.khulnasoft.com/velocity/log"
 
 log.Info("info")
 log.Warn("warn")
@@ -103,7 +103,7 @@ Here's an example using a custom logger:
 ```go
 import (
     "log"
-    velocitylog "go.khulnasoft.com/velocity/v3/log"
+    velocitylog "go.khulnasoft.com/velocity/log"
 )
 
 var _ velocitylog.AllLogger = (*customLogger)(nil)
@@ -127,7 +127,7 @@ velocitylog.SetLogger(&customLogger{
 **Note:** This method is not **concurrent-safe**.
 
 ```go
-import "go.khulnasoft.com/velocity/v3/log"
+import "go.khulnasoft.com/velocity/log"
 
 log.SetLevel(log.LevelInfo)
 ```

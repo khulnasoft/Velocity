@@ -16,7 +16,7 @@ Since Velocity v2.32.0, we have adopted `encoding/json` as the default JSON libr
 ```go title="Example"
 package main
 
-import "go.khulnasoft.com/velocity/v3"
+import "go.khulnasoft.com/velocity"
 import "github.com/goccy/go-json"
 
 func main() {

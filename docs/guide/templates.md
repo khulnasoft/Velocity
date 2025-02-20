@@ -218,7 +218,7 @@ package main
 
 import (
     "log"
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
     "github.com/khulnasoft/template/html/v2"
 )
 

@@ -10,8 +10,8 @@ import (
 	"sync/atomic"
 
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/v3"
-	"go.khulnasoft.com/velocity/v3/addon/retry"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/addon/retry"
 )
 
 var boundary = "--VelocityFormBoundary"

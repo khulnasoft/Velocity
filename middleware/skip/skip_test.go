@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"go.khulnasoft.com/velocity/v3"
-	"go.khulnasoft.com/velocity/v3/middleware/skip"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/skip"
 )
 
 // go test -run Test_Skip

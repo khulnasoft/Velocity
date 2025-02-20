@@ -20,9 +20,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/bytebufferpool"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/v3"
-	velocitylog "go.khulnasoft.com/velocity/v3/log"
-	"go.khulnasoft.com/velocity/v3/middleware/requestid"
+	"go.khulnasoft.com/velocity"
+	velocitylog "go.khulnasoft.com/velocity/log"
+	"go.khulnasoft.com/velocity/middleware/requestid"
 )
 
 func benchmarkSetup(b *testing.B, app *velocity.App, uri string) {

@@ -4,7 +4,7 @@ import (
 	"os"
 	"strings"
 
-	"go.khulnasoft.com/velocity/v3"
+	"go.khulnasoft.com/velocity"
 )
 
 // Config defines the config for middleware.

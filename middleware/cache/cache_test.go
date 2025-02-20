@@ -16,9 +16,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
 	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/v3"
-	"go.khulnasoft.com/velocity/v3/internal/storage/memory"
-	"go.khulnasoft.com/velocity/v3/middleware/etag"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/internal/storage/memory"
+	"go.khulnasoft.com/velocity/middleware/etag"
 )
 
 func Test_Cache_CacheControl(t *testing.T) {

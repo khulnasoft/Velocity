@@ -17,7 +17,7 @@ First, [download](https://go.dev/dl/) and install Go. Version `1.23` or higher i
 Installation is done using the [`go get`](https://pkg.go.dev/cmd/go/#hdr-Add_dependencies_to_current_module_and_install_them) command:
 
 ```bash
-go get go.khulnasoft.com/velocity/v3
+go get go.khulnasoft.com/velocity
 ```
 
 ### Zero Allocation
@@ -78,7 +78,7 @@ Below is the most straightforward **Velocity** application you can create:
 ```go
 package main
 
-import "go.khulnasoft.com/velocity/v3"
+import "go.khulnasoft.com/velocity"
 
 func main() {
     app := velocity.New()
@@ -171,8 +171,8 @@ Use the following code to serve files in a directory named `./public`:
 package main
 
 import (
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/middleware/static"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/static"
 )
 
 func main() {

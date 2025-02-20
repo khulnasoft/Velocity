@@ -36,8 +36,8 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/middleware/recover"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/recover"
 )
 
 func main() {

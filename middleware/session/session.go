@@ -9,7 +9,7 @@ import (
 
 	"github.com/valyala/fasthttp"
 	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/v3"
+	"go.khulnasoft.com/velocity"
 )
 
 // Session represents a user session.

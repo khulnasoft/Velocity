@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/v3"
-	"go.khulnasoft.com/velocity/v3/internal/memory"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/internal/memory"
 )
 
 // msgp -file="storage_manager.go" -o="storage_manager_msgp.go" -tests=true -unexported

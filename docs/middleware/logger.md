@@ -18,8 +18,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/middleware/logger"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/logger"
 )
 ```
 
@@ -99,9 +99,9 @@ package main
 
 import (
     "github.com/khulnasoft/contrib/velocityzap/v2"
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/log"
-    "go.khulnasoft.com/velocity/v3/middleware/logger"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/log"
+    "go.khulnasoft.com/velocity/middleware/logger"
 )
 
 func main() {

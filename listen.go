@@ -22,7 +22,7 @@ import (
 
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
-	"go.khulnasoft.com/velocity/v3/log"
+	"go.khulnasoft.com/velocity/log"
 	"golang.org/x/crypto/acme/autocert"
 )
 
@@ -457,8 +457,8 @@ func (app *App) startupMessage(addr string, isTLS bool, pids string, cfg ListenC
 // printRoutesMessage print all routes with method, path, name and handlers
 // in a format of table, like this:
 // method | path | name      | handlers
-// GET    | /    | routeName | go.khulnasoft.com/velocity/v3.emptyHandler
-// HEAD   | /    |           | go.khulnasoft.com/velocity/v3.emptyHandler
+// GET    | /    | routeName | go.khulnasoft.com/velocity.emptyHandler
+// HEAD   | /    |           | go.khulnasoft.com/velocity.emptyHandler
 func (app *App) printRoutesMessage() {
 	// ignore child processes
 	if IsChild() {

@@ -36,8 +36,8 @@ Import the middleware package that is part of the [Velocity](https://go.khulnaso
 
 ```go
 import(
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/middleware/healthcheck"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/healthcheck"
 )
 ```
 

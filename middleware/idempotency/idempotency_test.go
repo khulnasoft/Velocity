@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/v3"
-	"go.khulnasoft.com/velocity/v3/middleware/idempotency"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/idempotency"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
 	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/v3"
-	"go.khulnasoft.com/velocity/v3/middleware/session"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/middleware/session"
 )
 
 func Test_CSRF(t *testing.T) {

@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"go.khulnasoft.com/velocity/v3"
-	clientpkg "go.khulnasoft.com/velocity/v3/client"
+	"go.khulnasoft.com/velocity"
+	clientpkg "go.khulnasoft.com/velocity/client"
 
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/v3/internal/tlstest"
+	"go.khulnasoft.com/velocity/internal/tlstest"
 )
 
 func startServer(app *velocity.App, ln net.Listener) {

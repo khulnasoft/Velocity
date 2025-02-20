@@ -28,7 +28,7 @@ import (
 	"github.com/fxamacker/cbor/v2"
 	"github.com/valyala/fasthttp"
 	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/v3/log"
+	"go.khulnasoft.com/velocity/log"
 )
 
 // Version of current velocity package

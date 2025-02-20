@@ -2,7 +2,7 @@ package velocity
 
 import (
 	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/v3/binder"
+	"go.khulnasoft.com/velocity/binder"
 )
 
 // CustomBinder An interface to register custom binders.

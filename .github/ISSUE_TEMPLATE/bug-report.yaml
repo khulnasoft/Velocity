@@ -61,7 +61,7 @@ body:
       value: |
         package main
 
-        import "go.khulnasoft.com/velocity/v3"
+        import "go.khulnasoft.com/velocity"
         import "log"
 
         func main() {

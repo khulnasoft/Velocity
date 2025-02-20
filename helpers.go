@@ -21,7 +21,7 @@ import (
 	"unsafe"
 
 	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/v3/log"
+	"go.khulnasoft.com/velocity/log"
 
 	"github.com/valyala/bytebufferpool"
 	"github.com/valyala/fasthttp"

@@ -10,7 +10,7 @@ import (
 
 	"github.com/valyala/bytebufferpool"
 	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/v3/binder"
+	"go.khulnasoft.com/velocity/binder"
 )
 
 // Pool for redirection

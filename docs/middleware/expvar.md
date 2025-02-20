@@ -18,8 +18,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity/v3"
-    expvarmw "go.khulnasoft.com/velocity/v3/middleware/expvar"
+    "go.khulnasoft.com/velocity"
+    expvarmw "go.khulnasoft.com/velocity/middleware/expvar"
 )
 ```
 

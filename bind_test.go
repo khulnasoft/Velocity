@@ -16,7 +16,7 @@ import (
 	"github.com/fxamacker/cbor/v2"
 	"github.com/stretchr/testify/require"
 	"github.com/valyala/fasthttp"
-	"go.khulnasoft.com/velocity/v3/binder"
+	"go.khulnasoft.com/velocity/binder"
 )
 
 const helloWorld = "hello world"

@@ -1,7 +1,7 @@
 package velocity
 
 import (
-	"go.khulnasoft.com/velocity/v3/log"
+	"go.khulnasoft.com/velocity/log"
 )
 
 // OnRouteHandler Handlers define a function to create hooks for Velocity.

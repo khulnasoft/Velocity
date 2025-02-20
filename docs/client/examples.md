@@ -21,7 +21,7 @@ import (
     "encoding/base64"
     "fmt"
 
-    "go.khulnasoft.com/velocity/v3/client"
+    "go.khulnasoft.com/velocity/client"
 )
 
 func main() {
@@ -48,8 +48,8 @@ func main() {
 package main
 
 import (
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/middleware/basicauth"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/basicauth"
 )
 
 func main() {
@@ -87,7 +87,7 @@ import (
     "fmt"
     "os"
 
-    "go.khulnasoft.com/velocity/v3/client"
+    "go.khulnasoft.com/velocity/client"
 )
 
 func main() {
@@ -124,7 +124,7 @@ func main() {
 package main
 
 import (
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
 )
 
 func main() {

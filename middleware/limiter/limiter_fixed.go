@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/v3"
+	"go.khulnasoft.com/velocity"
 )
 
 type FixedWindow struct{}

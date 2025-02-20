@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/v3"
-	"go.khulnasoft.com/velocity/v3/log"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/log"
 )
 
 // Inspired by https://datatracker.ietf.org/doc/html/draft-ietf-httpapi-idempotency-key-header-02

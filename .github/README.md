@@ -6,10 +6,10 @@
     </picture>
   </a>
   <br>
-  <a href="https://pkg.go.dev/go.khulnasoft.com/velocity/v3#pkg-overview">
+  <a href="https://pkg.go.dev/go.khulnasoft.com/velocity#pkg-overview">
     <img src="https://img.shields.io/badge/%F0%9F%93%9A%20godoc-pkg-00ACD7.svg?color=00ACD7&style=flat-square">
   </a>
-  <a href="https://goreportcard.com/report/go.khulnasoft.com/velocity/v3">
+  <a href="https://goreportcard.com/report/go.khulnasoft.com/velocity">
     <img src="https://img.shields.io/badge/%F0%9F%93%9D%20goreport-A%2B-75C46B?style=flat-square">
   </a>
   <a href="https://codecov.io/gh/khulnasoft/velocity" >
@@ -50,7 +50,7 @@ To learn more about Go modules and how they work, you can check out the [Using G
 After setting up your project, you can install Velocity with the `go get` command:
 
 ```bash
-go get -u go.khulnasoft.com/velocity/v3
+go get -u go.khulnasoft.com/velocity
 ```
 
 This command fetches the Velocity package and adds it to your project's dependencies, allowing you to start building your web applications with Velocity.
@@ -65,7 +65,7 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
 )
 
 func main() {
@@ -140,7 +140,7 @@ import (
     "fmt"
     "log"
 
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
 )
 
 func main() {
@@ -190,7 +190,7 @@ import (
     "fmt"
     "log"
 
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
 )
 
 func main() {
@@ -227,8 +227,8 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/middleware/static"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/static"
 )
 
 func main() {
@@ -260,7 +260,7 @@ import (
     "fmt"
     "log"
 
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
 )
 
 func main() {
@@ -307,7 +307,7 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
     "github.com/khulnasoft/template/pug"
 )
 
@@ -339,7 +339,7 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
 )
 
 func middleware(c velocity.Ctx) error {
@@ -381,8 +381,8 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/middleware/logger"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/logger"
 )
 
 func main() {
@@ -410,8 +410,8 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/middleware/cors"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/cors"
 )
 
 func main() {
@@ -445,7 +445,7 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
 )
 
 func main() {
@@ -481,7 +481,7 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
 )
 
 type User struct {
@@ -521,8 +521,8 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/middleware/websocket"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/websocket"
 )
 
 func main() {
@@ -567,7 +567,7 @@ import (
     "log"
     "time"
 
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
     "github.com/valyala/fasthttp"
 )
 
@@ -611,8 +611,8 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/middleware/recover"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/recover"
 )
 
 func main() {
@@ -640,7 +640,7 @@ package main
 import (
     "log"
 
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
 )
 
 func main() {

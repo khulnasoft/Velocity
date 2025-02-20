@@ -28,7 +28,7 @@ Firstly, import the addon from Velocity,
 
 ```go
 import (
-    "go.khulnasoft.com/velocity/v3/addon/retry"
+    "go.khulnasoft.com/velocity/addon/retry"
 )
 ```
 

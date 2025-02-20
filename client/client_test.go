@@ -18,9 +18,9 @@ import (
 	"github.com/valyala/bytebufferpool"
 	"github.com/valyala/fasthttp"
 	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/v3"
-	"go.khulnasoft.com/velocity/v3/addon/retry"
-	"go.khulnasoft.com/velocity/v3/internal/tlstest"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/addon/retry"
+	"go.khulnasoft.com/velocity/internal/tlstest"
 )
 
 func startTestServerWithPort(t *testing.T, beforeStarting func(app *velocity.App)) (*velocity.App, string) {

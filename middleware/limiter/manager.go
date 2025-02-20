@@ -4,8 +4,8 @@ import (
 	"sync"
 	"time"
 
-	"go.khulnasoft.com/velocity/v3"
-	"go.khulnasoft.com/velocity/v3/internal/memory"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/internal/memory"
 )
 
 // msgp -file="manager.go" -o="manager_msgp.go" -tests=false -unexported

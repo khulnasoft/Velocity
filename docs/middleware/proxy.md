@@ -35,8 +35,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/middleware/proxy"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/proxy"
 )
 ```
 

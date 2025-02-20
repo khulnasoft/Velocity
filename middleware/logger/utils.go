@@ -4,8 +4,8 @@ import (
 	"io"
 
 	"go.khulnasoft.com/velocity/utils"
-	"go.khulnasoft.com/velocity/v3"
-	velocitylog "go.khulnasoft.com/velocity/v3/log"
+	"go.khulnasoft.com/velocity"
+	velocitylog "go.khulnasoft.com/velocity/log"
 )
 
 func methodColor(method string, colors velocity.Colors) string {

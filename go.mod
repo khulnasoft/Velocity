@@ -1,4 +1,4 @@
-module go.khulnasoft.com/velocity/v3
+module go.khulnasoft.com/velocity
 
 go 1.23
 

@@ -591,7 +591,7 @@ func Benchmark_Router_Next_Default(b *testing.B) {
 	}
 }
 
-// go test -benchmem -run=^$ -bench ^Benchmark_Router_Next_Default_Parallel$ go.khulnasoft.com/velocity/v3 -count=1
+// go test -benchmem -run=^$ -bench ^Benchmark_Router_Next_Default_Parallel$ go.khulnasoft.com/velocity -count=1
 func Benchmark_Router_Next_Default_Parallel(b *testing.B) {
 	app := New()
 	app.Get("/", func(_ Ctx) error {

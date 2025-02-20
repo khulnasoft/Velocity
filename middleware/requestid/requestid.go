@@ -3,8 +3,8 @@ package requestid
 import (
 	"context"
 
-	"go.khulnasoft.com/velocity/v3"
-	"go.khulnasoft.com/velocity/v3/log"
+	"go.khulnasoft.com/velocity"
+	"go.khulnasoft.com/velocity/log"
 )
 
 // The contextKey type is unexported to prevent collisions with context keys defined in

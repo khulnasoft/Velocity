@@ -18,8 +18,8 @@ Import the middleware package that is part of the Velocity web framework
 
 ```go
 import (
-    "go.khulnasoft.com/velocity/v3"
-    recoverer "go.khulnasoft.com/velocity/v3/middleware/recover"
+    "go.khulnasoft.com/velocity"
+    recoverer "go.khulnasoft.com/velocity/middleware/recover"
 )
 ```
 

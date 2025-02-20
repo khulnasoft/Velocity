@@ -268,9 +268,9 @@ The `GetByID` method retrieves a session from storage using its session ID. Unli
 package main
 
 import (
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/middleware/csrf"
-    "go.khulnasoft.com/velocity/v3/middleware/session"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/csrf"
+    "go.khulnasoft.com/velocity/middleware/session"
 )
 
 func main() {
@@ -307,10 +307,10 @@ func main() {
 package main
 
 import (
-    "go.khulnasoft.com/velocity/v3"
+    "go.khulnasoft.com/velocity"
     "github.com/khulnasoft/storage/sqlite3"
-    "go.khulnasoft.com/velocity/v3/middleware/csrf"
-    "go.khulnasoft.com/velocity/v3/middleware/session"
+    "go.khulnasoft.com/velocity/middleware/csrf"
+    "go.khulnasoft.com/velocity/middleware/session"
 )
 
 func main() {
@@ -336,9 +336,9 @@ func main() {
 package main
 
 import (
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/middleware/csrf"
-    "go.khulnasoft.com/velocity/v3/middleware/session"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/csrf"
+    "go.khulnasoft.com/velocity/middleware/session"
 )
 
 func main() {
@@ -421,8 +421,8 @@ To support other types in session data, you can register custom types. Here is a
 package main
 
 import (
-    "go.khulnasoft.com/velocity/v3"
-    "go.khulnasoft.com/velocity/v3/middleware/session"
+    "go.khulnasoft.com/velocity"
+    "go.khulnasoft.com/velocity/middleware/session"
 )
 
 type User struct {
