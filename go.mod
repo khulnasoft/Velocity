@@ -2,12 +2,10 @@ module github.com/khulnasoft/velocity
 
 go 1.23
 
-replace github.com/khulnasoft/velocity/utils => ./utils
-
 require (
 	github.com/google/uuid v1.6.0
 	github.com/khulnasoft/schema v1.0.0
-	github.com/khulnasoft/velocity/utils v0.0.0-00010101000000-000000000000
+	github.com/khulnasoft/velocity/utils v0.0.0-20250221001019-57b5895389ed // indirect
 	github.com/mattn/go-colorable v0.1.14
 	github.com/mattn/go-isatty v0.0.20
 	github.com/stretchr/testify v1.10.0
