@@ -1,18 +1,17 @@
 module github.com/khulnasoft/velocity
 
 go 1.23
-
 require (
 	github.com/google/uuid v1.6.0
 	github.com/khulnasoft/schema v1.0.0
-	github.com/khulnasoft/velocity/utils v0.0.0-20250221001019-57b5895389ed // indirect
+	github.com/khulnasoft/velocity/utils v0.0.0-20250221001019-57b5895389ed
 	github.com/mattn/go-colorable v0.1.14
 	github.com/mattn/go-isatty v0.0.20
 	github.com/stretchr/testify v1.10.0
 	github.com/tinylib/msgp v1.2.5
 	github.com/valyala/bytebufferpool v1.0.0
 	github.com/valyala/fasthttp v1.59.0
-	golang.org/x/crypto v0.33.0
+	golang.org/x/crypto v0.35.0
 )
 
 require (
